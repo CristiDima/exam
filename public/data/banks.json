@@ -1,0 +1,5 @@
+[
+  { "id": "data-management", "title": "Data Management", "file": "data-management.json" },
+  { "id": "ad428-audit", "title": "AD 428 Audit", "file": "ad428-audit.json" },
+  { "id": "ad428-audit-hard", "title": "AD 428 Audit (hard variant)", "file": "ad428-audit-hard.json" }
+]

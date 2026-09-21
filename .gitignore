@@ -1,0 +1,4 @@
+.DS_Store
+.vercel
+# Personal progress exports (keep them out of the repo)
+epso-progress*.json

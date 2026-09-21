@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 501,
+    "question": "The Statement of Assurance of the European Court of Auditors covers the reliability of the accounts and the legality and regularity of the underlying transactions. Which element, often assumed to be included, is NOT part of the DAS?",
+    "choices": {
+      "A": "An opinion on whether the financial management of EU spending has been sound",
+      "B": "An opinion on the reliability of the consolidated accounts",
+      "C": "An opinion on the legality and regularity of expenditure",
+      "D": "An opinion on the legality and regularity of revenue"
+    },
+    "answer": "A",
+    "explanation": "Sound financial management is examined under Article 287 TFEU but is addressed through special reports and chapters of the annual report, not through the DAS opinion."
+  },
+  {
+    "id": 502,
+    "question": "For the 2024 financial year, the combination of opinions given by the Court was:",
+    "choices": {
+      "A": "Clean on the accounts, clean on revenue, adverse on expenditure, with a separate qualified opinion on RRF expenditure",
+      "B": "Clean on the accounts, clean on revenue, qualified on expenditure",
+      "C": "Qualified on the accounts, clean on revenue, adverse on all expenditure including the RRF",
+      "D": "Clean on the accounts, qualified on revenue, adverse on expenditure"
+    },
+    "answer": "A",
+    "explanation": "The accounts received a clean opinion for the eighteenth consecutive year; expenditure received its sixth consecutive adverse opinion; the RRF was assessed separately and qualified."
+  },
+  {
+    "id": 503,
+    "question": "The principal reason cohesion expenditure shows a persistently higher error rate than direct payments to farmers is that:",
+    "choices": {
+      "A": "Cohesion is reimbursement-based with complex eligibility, procurement and State aid conditions, whereas direct payments are entitlement-based conditions verified through IACS",
+      "B": "Cohesion is implemented under direct management",
+      "C": "Cohesion beneficiaries are more frequently fraudulent",
+      "D": "Direct payments are exempt from audit"
+    },
+    "answer": "A",
+    "explanation": "The payment model, not the honesty of beneficiaries, drives the risk profile; error is not a measure of fraud."
+  },
+  {
+    "id": 504,
+    "question": "Place the Commission's payment-protection tools in increasing order of severity:",
+    "choices": {
+      "A": "Interruption of the payment deadline, suspension of payments, financial correction",
+      "B": "Interruption, correction, suspension",
+      "C": "Correction, suspension, interruption",
+      "D": "Suspension, interruption, correction"
+    },
+    "answer": "A",
+    "explanation": "Interruption pauses the clock pending verification, suspension halts payments formally, and correction definitively withdraws funds."
+  },
+  {
+    "id": 505,
+    "question": "A Member State detects and corrects an irregular amount in a cohesion programme before the Commission or the Court identifies it. The consequence is that the Member State:",
+    "choices": {
+      "A": "May replace the withdrawn expenditure with new eligible expenditure, whereas a net correction imposed by the Commission would deprive it of the funds definitively",
+      "B": "Is exempted from reporting the irregularity",
+      "C": "Loses the funds definitively in the same way as under a net correction",
+      "D": "Must return the amount to the Commission with interest in all cases"
+    },
+    "answer": "A",
+    "explanation": "The ability to reuse funds is the incentive for national systems to find errors first; reporting obligations remain."
+  },
+  {
+    "id": 506,
+    "question": "Which document is NOT part of the annual assurance package submitted by a Member State in cohesion policy?",
+    "choices": {
+      "A": "The audit authority's annual control report and audit opinion",
+      "B": "The annual summary of final audit reports and controls",
+      "C": "The management declaration",
+      "D": "The ex-post evaluation of the programme's impact"
+    },
+    "answer": "D",
+    "explanation": "The package comprises the accounts, the management declaration, the annual summary and the annual control report with the audit opinion. Evaluations belong to a different accountability strand."
+  },
+  {
+    "id": 507,
+    "question": "In cohesion policy 2021-2027, the management declaration is drawn up by:",
+    "choices": {
+      "A": "The accounting function",
+      "B": "The Commission's authorising officer by delegation",
+      "C": "The audit authority",
+      "D": "The managing authority"
+    },
+    "answer": "D",
+    "explanation": "The managing authority declares on the functioning of the system and the legality and regularity of the expenditure in the accounts; the audit authority gives an independent opinion on that declaration."
+  },
+  {
+    "id": 508,
+    "question": "The 'total error rate' and the 'residual error rate' reported by an audit authority differ in that the residual rate:",
+    "choices": {
+      "A": "Is calculated by the Commission rather than the audit authority",
+      "B": "Takes account of corrections applied to the accounts before their submission",
+      "C": "Covers system audits only",
+      "D": "Excludes errors below EUR 250"
+    },
+    "answer": "B",
+    "explanation": "The residual rate must remain below the 2 % materiality threshold after deduction of the corrections applied; the total rate is the projected error before those corrections."
+  },
+  {
+    "id": 509,
+    "question": "Under the single audit approach, the Commission may rely on the audit authority's opinion provided that:",
+    "choices": {
+      "A": "The audit authority is a supreme audit institution",
+      "B": "The opinion is unqualified, without any further condition",
+      "C": "It has assessed and, where necessary, re-performed or reviewed the audit authority's work and found it reliable",
+      "D": "The Member State has never had a net correction"
+    },
+    "answer": "C",
+    "explanation": "Reliance is earned through the Commission's review of the quality of the lower level's work, not granted automatically by an unqualified opinion."
+  },
+  {
+    "id": 510,
+    "question": "Paying agencies under the common agricultural policy are accredited by:",
+    "choices": {
+      "A": "The competent authority of the Member State, against Union accreditation criteria",
+      "B": "The certification body",
+      "C": "The European Commission",
+      "D": "The European Court of Auditors"
+    },
+    "answer": "A",
+    "explanation": "Accreditation is national; the Commission supervises through clearance procedures and may require accreditation to be reviewed."
+  },
+  {
+    "id": 511,
+    "question": "Decommitment under the n+3 rule in cohesion is triggered by comparing the commitments of year n with:",
+    "choices": {
+      "A": "The expenditure actually incurred by beneficiaries",
+      "B": "The amounts certified in the final accounts of the programming period",
+      "C": "The Commission's payments of pre-financing",
+      "D": "The payment applications submitted by the deadline"
+    },
+    "answer": "D",
+    "explanation": "What counts is the submission of payment applications covering the commitment within the deadline; pre-financing alone does not save a commitment."
+  },
+  {
+    "id": 512,
+    "question": "If a milestone previously assessed as fulfilled under the RRF is subsequently reversed by a Member State, the Commission may:",
+    "choices": {
+      "A": "Refer the Member State automatically to the EPPO",
+      "B": "Recover funds or reduce subsequent payments proportionately",
+      "C": "Apply the n+3 decommitment rule",
+      "D": "Take no action, since the assessment was final"
+    },
+    "answer": "B",
+    "explanation": "The performance logic works in both directions: measures satisfying milestones must be maintained, and reversal has financial consequences."
+  },
+  {
+    "id": 513,
+    "question": "Article 22 of the RRF Regulation requires Member States to collect, for audit and control purposes, data on:",
+    "choices": {
+      "A": "Final recipients and contractors, including beneficial ownership information",
+      "B": "Only projects above EUR 10 million",
+      "C": "The voting records of national parliaments",
+      "D": "Only the ministries implementing the plan"
+    },
+    "answer": "A",
+    "explanation": "Data on final recipients, contractors, subcontractors and beneficial owners underpin the prevention of fraud, conflicts of interest and double funding."
+  },
+  {
+    "id": 514,
+    "question": "The Court's audit of RRF payments primarily examines:",
+    "choices": {
+      "A": "Whether co-financing rates were respected",
+      "B": "Whether the Commission's assessment that milestones and targets were satisfactorily fulfilled was sound and supported",
+      "C": "Whether the area declared corresponds to the land parcel register",
+      "D": "Whether beneficiaries' declared costs were eligible"
+    },
+    "answer": "B",
+    "explanation": "Because RRF payments are performance-based, the regularity condition is the satisfactory fulfilment of milestones and targets, not cost eligibility."
+  },
+  {
+    "id": 515,
+    "question": "The 'plastic' own resource is:",
+    "choices": {
+      "A": "A customs duty on imported plastic goods",
+      "B": "A share of national plastic taxes transferred to the Union",
+      "C": "A national contribution calculated on the weight of non-recycled plastic packaging waste",
+      "D": "An EU-wide levy collected directly from packaging producers"
+    },
+    "answer": "C",
+    "explanation": "It is a contribution key applied to Member States, not a tax on companies; no EU tax on producers was created."
+  },
+  {
+    "id": 516,
+    "question": "Member States currently retain, as collection costs, what share of the traditional own resources they collect?",
+    "choices": {
+      "A": "10 %",
+      "B": "25 %",
+      "C": "20 %",
+      "D": "50 %"
+    },
+    "answer": "B",
+    "explanation": "The 2020 Own Resources Decision raised the retention share to 25 %; 20 % applied under the previous decision, a classic outdated-knowledge distractor."
+  },
+  {
+    "id": 517,
+    "question": "Because the GNI-based resource is the residual, balancing resource, a shortfall in customs revenue during the year will ultimately:",
+    "choices": {
+      "A": "Be financed by Union borrowing",
+      "B": "Be offset by higher GNI-based contributions from the Member States",
+      "C": "Create a budget deficit carried to the following year",
+      "D": "Reduce the payment appropriations available"
+    },
+    "answer": "B",
+    "explanation": "Equilibrium is maintained through the GNI resource; the Union may not borrow to finance the budget."
+  },
+  {
+    "id": 518,
+    "question": "External assigned revenue is significant in the current financial framework because:",
+    "choices": {
+      "A": "NextGenerationEU non-repayable support is channelled to programmes as external assigned revenue, outside the MFF ceilings, an exception to the universality and unity principles that the Court has flagged for budgetary transparency",
+      "B": "It finances the administrative budget of the institutions",
+      "C": "It replaces the GNI resource",
+      "D": "It may be spent without any legal basis"
+    },
+    "answer": "A",
+    "explanation": "The scale of assigned revenue under NGEU changed the budget's structure and complicated parliamentary oversight, as the ECA has repeatedly observed."
+  },
+  {
+    "id": 519,
+    "question": "Carry-overs of appropriations to the following year are:",
+    "choices": {
+      "A": "An application of the principle of unity",
+      "B": "Automatic for all unused appropriations",
+      "C": "A limited, regulated exception to the principle of annuality",
+      "D": "Prohibited without exception"
+    },
+    "answer": "C",
+    "explanation": "The Financial Regulation permits defined carry-overs; treating them as automatic or as prohibited are both wrong."
+  },
+  {
+    "id": 520,
+    "question": "Transfers of appropriations between budget lines:",
+    "choices": {
+      "A": "Are possible within limits and procedures set by the Financial Regulation, some autonomously by the institutions and others requiring the budgetary authority",
+      "B": "Are always decided by the Council alone",
+      "C": "Require an amending budget in every case",
+      "D": "Are prohibited by the principle of specification"
+    },
+    "answer": "A",
+    "explanation": "Specification is qualified by a graduated transfer regime; an amending budget is needed for changes beyond what transfers can accommodate."
+  },
+  {
+    "id": 521,
+    "question": "An amending budget is the instrument used to:",
+    "choices": {
+      "A": "Modify the adopted annual budget during the year in unavoidable, exceptional or unforeseen circumstances",
+      "B": "Adjust the MFF ceilings",
+      "C": "Approve carry-overs",
+      "D": "Grant discharge"
+    },
+    "answer": "A",
+    "explanation": "Amending budgets follow the budgetary procedure; MFF revision is a separate, unanimity-based exercise."
+  },
+  {
+    "id": 522,
+    "question": "If the annual budget is not adopted at the beginning of the financial year, expenditure may continue under the system of:",
+    "choices": {
+      "A": "Suspension of all payments until adoption",
+      "B": "Automatic prolongation of the full previous budget",
+      "C": "Provisional twelfths, limited each month to one twelfth of the preceding year's appropriations, within the limits of the draft budget",
+      "D": "Emergency financing decided by the Commission alone"
+    },
+    "answer": "C",
+    "explanation": "Article 315 TFEU; the ceiling refers to the preceding year's appropriations and the draft budget, whichever is lower per the rules."
+  },
+  {
+    "id": 523,
+    "question": "The annual budget is adopted:",
+    "choices": {
+      "A": "By the European Council by consensus",
+      "B": "By the Parliament alone",
+      "C": "By the Council alone after consulting the Parliament",
+      "D": "Jointly by the European Parliament and the Council under a special legislative procedure, with a conciliation committee where they disagree"
+    },
+    "answer": "D",
+    "explanation": "Article 314 TFEU; the Parliament can, under conditions, have the final word after conciliation."
+  },
+  {
+    "id": 524,
+    "question": "When the European Parliament postpones the discharge decision, the practical effect is that:",
+    "choices": {
+      "A": "The Commission must respond to the Parliament's observations and a new decision is taken later in the year",
+      "B": "All payments from the budget are suspended",
+      "C": "The accounts of the year are annulled",
+      "D": "The Commission must resign"
+    },
+    "answer": "A",
+    "explanation": "Postponement is a political pressure instrument; refusal, likewise, censures but does not annul the accounts."
+  },
+  {
+    "id": 525,
+    "question": "Which EU bodies are NOT subject to discharge by the European Parliament?",
+    "choices": {
+      "A": "Executive agencies",
+      "B": "Decentralised agencies financed from the budget",
+      "C": "Joint undertakings receiving Union contributions",
+      "D": "Fully self-financed agencies such as EUIPO and the CPVO, which receive discharge from their own budgetary bodies"
+    },
+    "answer": "D",
+    "explanation": "The ECA still audits the self-financed agencies, but the EP discharge covers bodies financed from the general budget."
+  },
+  {
+    "id": 526,
+    "question": "Under Article 318 TFEU the Commission submits to the Parliament and the Council:",
+    "choices": {
+      "A": "The annual control reports of the audit authorities",
+      "B": "An evaluation report on the Union's finances based on the results achieved",
+      "C": "The Statement of Assurance",
+      "D": "The OLAF annual report"
+    },
+    "answer": "B",
+    "explanation": "This performance-based report is part of the discharge evidence, alongside the accounts and the AMPR."
+  },
+  {
+    "id": 527,
+    "question": "'Risk at closure' in the Commission's assurance reporting equals:",
+    "choices": {
+      "A": "The sum of all reservations in the AARs",
+      "B": "Risk at payment minus the corrections and recoveries the Commission expects to make in subsequent years",
+      "C": "The residual error rate of the audit authorities",
+      "D": "The ECA's estimated level of error"
+    },
+    "answer": "B",
+    "explanation": "It expresses the error expected to remain after the corrective capacity of the systems has operated."
+  },
+  {
+    "id": 528,
+    "question": "As a general rule, a Director-General introduces a quantified reservation in the Annual Activity Report where:",
+    "choices": {
+      "A": "OLAF has opened an investigation involving the DG",
+      "B": "The ECA has criticised the DG in a special report",
+      "C": "The residual error for a material segment of activity exceeds the 2 % materiality threshold, or a significant control weakness exposes the budget",
+      "D": "The budget execution rate falls below 90 %"
+    },
+    "answer": "C",
+    "explanation": "Reservations are driven by the DG's own control results against materiality, accompanied by an action plan."
+  },
+  {
+    "id": 529,
+    "question": "Under the de minimis Regulation applicable since 2024, aid to a single undertaking is presumed not to affect trade and competition where it does not exceed:",
+    "choices": {
+      "A": "EUR 500 000 over five years",
+      "B": "EUR 300 000 over any period of three years",
+      "C": "EUR 100 000 per year",
+      "D": "EUR 200 000 over three years"
+    },
+    "answer": "B",
+    "explanation": "The ceiling was raised from EUR 200 000 to EUR 300 000; auditors checking cumulation against the old threshold apply the wrong criterion for aid granted under the new regulation."
+  },
+  {
+    "id": 530,
+    "question": "Aid granted under the General Block Exemption Regulation:",
+    "choices": {
+      "A": "Requires individual Commission approval before payment",
+      "B": "Is not State aid",
+      "C": "Cannot be co-financed by EU funds",
+      "D": "Is exempt from prior notification to the Commission provided all the conditions of the Regulation are met, which the auditor can verify"
+    },
+    "answer": "D",
+    "explanation": "GBER compliance is a verifiable condition; breach of a GBER condition makes the aid unlawful and recoverable."
+  },
+  {
+    "id": 531,
+    "question": "An audit of financial instruments co-financed by EU funds typically focuses on:",
+    "choices": {
+      "A": "Eligibility at the level of final recipients, management costs and fees, achievement of the leverage effect and the treatment of returned resources",
+      "B": "The reimbursement of costs declared by the fund manager's suppliers",
+      "C": "Milestones and targets",
+      "D": "The land parcel identification system"
+    },
+    "answer": "A",
+    "explanation": "Financial instruments are revolving; the audit trail runs through the fund of funds and financial intermediaries down to final recipients."
+  },
+  {
+    "id": 532,
+    "question": "Budgetary guarantees such as InvestEU create for the Union budget:",
+    "choices": {
+      "A": "Revenue in the year of signature",
+      "B": "Contingent liabilities, covered by a provisioning rate paid into a common provisioning fund",
+      "C": "Direct expenditure equal to the full guarantee amount at signature",
+      "D": "No exposure, since implementing partners bear all losses"
+    },
+    "answer": "B",
+    "explanation": "The budget is exposed if guarantees are called; provisioning and exposure disclosure are the audit interest."
+  },
+  {
+    "id": 533,
+    "question": "Since 2021, development funding formerly channelled through the European Development Fund is:",
+    "choices": {
+      "A": "Managed by the European Investment Bank alone",
+      "B": "Financed by the plastic own resource",
+      "C": "Integrated into the budget under the NDICI - Global Europe instrument",
+      "D": "Still managed entirely outside the budget"
+    },
+    "answer": "C",
+    "explanation": "Budgetisation of the EDF closed a long-standing accountability gap the Court had criticised; legacy EDFs continue to be wound down."
+  },
+  {
+    "id": 534,
+    "question": "The European Stability Mechanism illustrates an accountability challenge because it:",
+    "choices": {
+      "A": "Is subject to the DAS",
+      "B": "Is audited exclusively by OLAF",
+      "C": "Operates outside the EU legal framework, beyond the ECA's audit mandate and the Parliament's discharge",
+      "D": "Is part of the general budget"
+    },
+    "answer": "C",
+    "explanation": "Intergovernmental instruments escape the Union's standard audit and discharge architecture, a gap the ECA has repeatedly highlighted."
+  },
+  {
+    "id": 535,
+    "question": "Borrowing under NextGenerationEU is to be repaid:",
+    "choices": {
+      "A": "By the beneficiary Member States exclusively",
+      "B": "Through the sale of Union assets",
+      "C": "By the end of the current MFF",
+      "D": "Over the long term, by 2058, which is why new own resources have been proposed"
+    },
+    "answer": "D",
+    "explanation": "Repayment of the grant component falls on the budget over decades; loans are repaid by the borrowing Member States."
+  },
+  {
+    "id": 536,
+    "question": "NextGenerationEU borrowing does not breach the equilibrium principle because:",
+    "choices": {
+      "A": "The Court granted a derogation",
+      "B": "The empowerment to borrow is a distinct, temporary legal construct and the proceeds do not finance the annual budget as general revenue",
+      "C": "The amounts are below the MFF ceilings",
+      "D": "The equilibrium principle was repealed in 2020"
+    },
+    "answer": "B",
+    "explanation": "The prohibition on borrowing to finance the budget stands; NGEU rests on the Own Resources Decision's specific and temporary empowerment."
+  },
+  {
+    "id": 537,
+    "question": "Contingent liabilities arising from guarantees and lending are relevant to the audit of the EU accounts because they:",
+    "choices": {
+      "A": "Are recognised as expenditure when the guarantee is signed",
+      "B": "Are outside the scope of the financial statements",
+      "C": "Offset the RAL",
+      "D": "Must be appropriately disclosed and provisioned in accordance with the accounting rules"
+    },
+    "answer": "D",
+    "explanation": "Measurement and disclosure of exposures is a recurring focus of the reliability-of-accounts audit."
+  },
+  {
+    "id": 538,
+    "question": "'Number of kilometres of railway line renovated' and 'travel time saved by passengers' are, respectively:",
+    "choices": {
+      "A": "An output indicator and a result indicator",
+      "B": "Two output indicators",
+      "C": "An input indicator and an output indicator",
+      "D": "A result indicator and an output indicator"
+    },
+    "answer": "A",
+    "explanation": "Outputs are the direct deliverables of the intervention; results capture the change for users; confusing the two undermines performance reporting."
+  },
+  {
+    "id": 539,
+    "question": "The multiannual financial framework may be revised during its lifetime:",
+    "choices": {
+      "A": "By the Commission through delegated acts",
+      "B": "By the Council acting unanimously with the Parliament's consent, as occurred with the 2024 mid-term revision that added the Ukraine Facility",
+      "C": "By qualified majority in the Council alone",
+      "D": "Only at the end of the period"
+    },
+    "answer": "B",
+    "explanation": "Revision follows the same institutional logic as adoption; the 2024 revision is the recent worked example."
+  },
+  {
+    "id": 540,
+    "question": "Special instruments such as the Flexibility Instrument and the reserves for emergencies exist to:",
+    "choices": {
+      "A": "Finance the administrative budget",
+      "B": "Mobilise funds over and above the MFF expenditure ceilings for defined unforeseen needs",
+      "C": "Reduce the ceilings in years of low absorption",
+      "D": "Replace amending budgets"
+    },
+    "answer": "B",
+    "explanation": "They are the built-in flexibility of the framework; their mobilisation follows specific procedures."
+  },
+  {
+    "id": 541,
+    "question": "The accounts of the Union are prepared:",
+    "choices": {
+      "A": "On a pure cash basis",
+      "B": "Under IFRS as adopted by the EU",
+      "C": "On an accrual basis, under EU accounting rules inspired by international public sector accounting standards, since 2005",
+      "D": "Under the national GAAP of the seat country"
+    },
+    "answer": "C",
+    "explanation": "Budgetary reporting remains cash-based alongside the accrual financial statements, a duality candidates often miss."
+  },
+  {
+    "id": 542,
+    "question": "The final consolidated annual accounts of the Union must be adopted and transmitted by:",
+    "choices": {
+      "A": "1 March of the following year",
+      "B": "31 December of the year itself",
+      "C": "15 May of year n+2",
+      "D": "31 July of the following year"
+    },
+    "answer": "D",
+    "explanation": "Provisional accounts circulate earlier in the year for the Court's observations; 15 May n+2 is the discharge deadline, a deliberately confusable date."
+  },
+  {
+    "id": 543,
+    "question": "Consolidation of the accounts of the institutions and agencies into the Union's annual accounts is the responsibility of:",
+    "choices": {
+      "A": "Each authorising officer by delegation",
+      "B": "The European Court of Auditors",
+      "C": "The Internal Audit Service",
+      "D": "The Commission's accounting officer"
+    },
+    "answer": "D",
+    "explanation": "The Commission's accounting officer consolidates and signs off the accounts; the Court audits them."
+  },
+  {
+    "id": 544,
+    "question": "In the accrual accounts, pre-financing paid to beneficiaries is recognised as:",
+    "choices": {
+      "A": "Revenue",
+      "B": "A contingent liability",
+      "C": "Definitive expenditure at the moment of payment",
+      "D": "An asset, cleared as eligible costs are accepted or conditions fulfilled"
+    },
+    "answer": "D",
+    "explanation": "Treating pre-financing as final expense is the cash-basis reflex; under accrual it remains a receivable of the Union until cleared."
+  },
+  {
+    "id": 545,
+    "question": "The audit powers of the European Court of Auditors include performing audits on the spot:",
+    "choices": {
+      "A": "In the institutions, in the Member States in liaison with national audit bodies, and on the premises of any natural or legal person receiving budget funds",
+      "B": "Only with the prior consent of the beneficiary",
+      "C": "Only within the EU institutions",
+      "D": "In the Member States, but never at beneficiary level"
+    },
+    "answer": "A",
+    "explanation": "Article 287(3) TFEU; audit at the level of final recipients is essential to the DAS methodology."
+  },
+  {
+    "id": 546,
+    "question": "Cooperation between the ECA and the supreme audit institutions of the Member States is organised notably through:",
+    "choices": {
+      "A": "Joint signature of the annual report",
+      "B": "The transfer of the DAS work to national SAIs",
+      "C": "The Contact Committee of the heads of EU SAIs and the liaison arrangements for on-the-spot audits",
+      "D": "A hierarchical relationship in which the ECA instructs national SAIs"
+    },
+    "answer": "C",
+    "explanation": "The Treaty requires cooperation in a spirit of trust while maintaining independence; there is no hierarchy."
+  },
+  {
+    "id": 547,
+    "question": "The ECA's audit rights over the European Investment Bank cover:",
+    "choices": {
+      "A": "Only the EIB's staff expenditure",
+      "B": "Nothing, since the EIB is fully outside the ECA's mandate",
+      "C": "All EIB operations without restriction",
+      "D": "The EIB's activity in managing Union revenue and expenditure, under a tripartite agreement, but not the Bank's own-resource operations"
+    },
+    "answer": "D",
+    "explanation": "The distinction between EU-mandate activity and the Bank's own lending is the precise boundary the exam can test."
+  },
+  {
+    "id": 548,
+    "question": "With respect to the European Central Bank, the ECA's mandate is limited to examining:",
+    "choices": {
+      "A": "The operational efficiency of the management of the ECB",
+      "B": "The reliability of the ECB's financial statements",
+      "C": "The soundness of monetary policy decisions",
+      "D": "The legality of banking supervision decisions"
+    },
+    "answer": "A",
+    "explanation": "Monetary policy is outside audit scope; the ECB's statements are audited by independent external auditors, not the ECA."
+  },
+  {
+    "id": 549,
+    "question": "To enforce a recovery order against a debtor other than a Member State, the Commission may:",
+    "choices": {
+      "A": "Ask the ECA to issue an enforcement order",
+      "B": "Only bring civil proceedings in Belgium",
+      "C": "Adopt a decision imposing a pecuniary obligation which is enforceable under Article 299 TFEU, or offset the debt against amounts owed to the debtor",
+      "D": "Seize assets directly through its own bailiffs"
+    },
+    "answer": "C",
+    "explanation": "Enforceable decisions and offsetting are the two characteristic Union-level recovery tools; enforcement on the ground follows national procedure."
+  },
+  {
+    "id": 550,
+    "question": "The Financial Regulation is adopted:",
+    "choices": {
+      "A": "By the European Council",
+      "B": "By the European Parliament and the Council under the ordinary legislative procedure, after consulting the Court of Auditors, on the basis of Article 322 TFEU",
+      "C": "By the Council acting unanimously",
+      "D": "By the Commission as a delegated act"
+    },
+    "answer": "B",
+    "explanation": "Consultation of the ECA is mandatory for financial rules; unanimity belongs to the MFF and own resources, not the Financial Regulation."
+  },
+  {
+    "id": 551,
+    "question": "Under the Global Internal Audit Standards, which of the following does the board NOT approve?",
+    "choices": {
+      "A": "The appointment, removal and remuneration of the chief audit executive",
+      "B": "The internal audit plan and budget",
+      "C": "The conclusions of each individual engagement report",
+      "D": "The internal audit charter"
+    },
+    "answer": "C",
+    "explanation": "The board's approval powers secure independence at function level; engagement conclusions are the auditor's own, based on evidence, and are not subject to approval."
+  },
+  {
+    "id": 552,
+    "question": "An internal audit function reports functionally to the board, but one of its auditors owns shares in a supplier being audited. The correct analysis is that:",
+    "choices": {
+      "A": "The function's independence is intact, but the individual auditor's objectivity is impaired and must be managed and disclosed",
+      "B": "Neither independence nor objectivity is affected, since reporting lines are correct",
+      "C": "The audit must be outsourced",
+      "D": "The function's independence is impaired"
+    },
+    "answer": "A",
+    "explanation": "Independence attaches to the function through positioning; objectivity attaches to the individual. Correct reporting lines do not cure a personal conflict."
+  },
+  {
+    "id": 553,
+    "question": "The one-year cooling-off restriction in the Global Internal Audit Standards applies to auditing an area:",
+    "choices": {
+      "A": "Only after operational responsibility, never after advisory work",
+      "B": "For which the auditor previously had operational responsibility, and also following an advisory engagement in that area",
+      "C": "Only for chief audit executives",
+      "D": "Audited by the same person in the previous year"
+    },
+    "answer": "B",
+    "explanation": "The restriction covers both prior management responsibility and prior advisory involvement; annual re-audit by the same auditor is not, in itself, prohibited."
+  },
+  {
+    "id": 554,
+    "question": "Where the chief audit executive is also asked to head the risk management function, the standards require:",
+    "choices": {
+      "A": "Safeguards, board oversight of the arrangement, disclosure of the impairment, and independent assurance over the activities the CAE manages",
+      "B": "Approval by the external auditor",
+      "C": "Nothing, as risk management is a natural extension of audit",
+      "D": "Automatic refusal, since the combination is prohibited outright"
+    },
+    "answer": "A",
+    "explanation": "The combination is discouraged but not absolutely prohibited; it triggers safeguards and alternative assurance, and the board must oversee it."
+  },
+  {
+    "id": 555,
+    "question": "An engagement in which internal audit reviews a directorate's draft control framework at its request and reports only to that directorate, with no assurance conclusion, is:",
+    "choices": {
+      "A": "An external quality assessment",
+      "B": "An assurance engagement, involving three parties",
+      "C": "An advisory engagement, involving two parties",
+      "D": "Prohibited by the standards"
+    },
+    "answer": "C",
+    "explanation": "Advisory services are agreed with the requesting client and involve the auditor and that client; assurance involves the auditor, the responsible party and the users."
+  },
+  {
+    "id": 556,
+    "question": "Professional scepticism differs from objectivity in that scepticism is:",
+    "choices": {
+      "A": "Required only in fraud engagements",
+      "B": "An attribute of the function rather than the individual",
+      "C": "A synonym for objectivity",
+      "D": "A questioning attitude towards evidence, while objectivity is the unbiased mental state free from conflicts of interest"
+    },
+    "answer": "D",
+    "explanation": "An auditor can be free of conflicts yet insufficiently sceptical, accepting explanations uncritically; the two principles are distinct in Domain II."
+  },
+  {
+    "id": 557,
+    "question": "Following the issuance of an internal audit report, the auditee demands that the working papers be handed over as they 'belong to the organisation'. The correct position is that:",
+    "choices": {
+      "A": "Only the external auditor may hold audit documentation",
+      "B": "The auditee owns the papers and may take them",
+      "C": "The papers must be destroyed to protect confidentiality",
+      "D": "Engagement records are controlled by the internal audit function under policies set by the CAE, and access by other parties is governed by those policies and legal requirements"
+    },
+    "answer": "D",
+    "explanation": "Custody and access control of engagement records rest with the audit function, which balances confidentiality, legal obligations and governance needs."
+  },
+  {
+    "id": 558,
+    "question": "A chief audit executive asked to give an annual overall opinion on the organisation's internal control may do so only if:",
+    "choices": {
+      "A": "The aggregated engagement results and other assurance provide a sufficient basis, with the scope, period and limitations stated",
+      "B": "Management drafts the opinion for the CAE's signature",
+      "C": "Every department was audited during the year",
+      "D": "The external auditor concurs"
+    },
+    "answer": "A",
+    "explanation": "An overall opinion needs an explicit, sufficient basis, but not necessarily universal coverage; management drafting it would negate its purpose."
+  },
+  {
+    "id": 559,
+    "question": "Within the INTOSAI Framework of Professional Pronouncements, which statement is correct?",
+    "choices": {
+      "A": "All three levels are equally non-binding",
+      "B": "INTOSAI-P and ISSAI pronouncements carry authority for SAIs, while GUIDs are non-mandatory guidance",
+      "C": "GUIDs are the mandatory core and ISSAIs are optional",
+      "D": "INTOSAI-P documents are guidance issued by the IIA"
+    },
+    "answer": "B",
+    "explanation": "The hierarchy runs principles, standards, guidance; confusing the status of GUIDs with that of ISSAIs is a standard distractor."
+  },
+  {
+    "id": 560,
+    "question": "Under ISSAI 100, the two levels of assurance an SAI may provide are:",
+    "choices": {
+      "A": "Certification and attestation",
+      "B": "Reasonable and moderate assurance, both expressed positively",
+      "C": "Absolute and reasonable assurance",
+      "D": "Reasonable assurance, expressed positively, and limited assurance, expressed negatively"
+    },
+    "answer": "D",
+    "explanation": "Absolute assurance is unattainable given the inherent limitations of audit; the wording convention distinguishes the two levels."
+  },
+  {
+    "id": 561,
+    "question": "ISA 315 (Revised 2019) describes the entity's system of internal control using five components that:",
+    "choices": {
+      "A": "Mirror the COBIT domains",
+      "B": "Mirror the COSO structure: control environment, risk assessment, monitoring, information and communication, and control activities",
+      "C": "Replace the audit risk model",
+      "D": "Comprise only ITGCs and application controls"
+    },
+    "answer": "B",
+    "explanation": "The ISA and COSO component structures align; COBIT's domains are a different taxonomy for IT governance."
+  },
+  {
+    "id": 562,
+    "question": "A 'significant risk' under the ISAs is one:",
+    "choices": {
+      "A": "For which controls are always absent",
+      "B": "Close to the upper end of the spectrum of inherent risk, requiring special audit consideration",
+      "C": "That is quantitatively above materiality",
+      "D": "That management has accepted"
+    },
+    "answer": "B",
+    "explanation": "The 2019 revision anchors significance in the combination of likelihood and magnitude on the inherent risk spectrum, not in the control response or the amount alone."
+  },
+  {
+    "id": 563,
+    "question": "A EUR 15 000 payment to a company owned by the authorising officer's spouse, in a budget where overall materiality is EUR 2 million, is:",
+    "choices": {
+      "A": "Immaterial and can be disregarded",
+      "B": "Relevant to performance audit only",
+      "C": "Potentially material by nature as a related-party and conflict-of-interest matter, despite being quantitatively trivial",
+      "D": "Material only if repeated more than 100 times"
+    },
+    "answer": "C",
+    "explanation": "Materiality has qualitative dimensions; nature and context can make a small amount reportable and even determinative."
+  },
+  {
+    "id": 564,
+    "question": "Performance materiality is set below overall materiality in order to:",
+    "choices": {
+      "A": "Comply with the 2 % threshold of the ECA",
+      "B": "Give the auditor a negotiating margin with management",
+      "C": "Determine which findings appear in the report",
+      "D": "Reduce to an appropriately low level the probability that uncorrected and undetected misstatements in aggregate exceed overall materiality"
+    },
+    "answer": "D",
+    "explanation": "It is a working threshold driving the extent of procedures, not a reporting or negotiation device."
+  },
+  {
+    "id": 565,
+    "question": "The 'clearly trivial' threshold used to accumulate misstatements is:",
+    "choices": {
+      "A": "Equal to materiality divided by two",
+      "B": "The amount below which fraud need not be reported",
+      "C": "A synonym for performance materiality",
+      "D": "Much lower than materiality; matters below it are inconsequential individually and in aggregate"
+    },
+    "answer": "D",
+    "explanation": "'Clearly trivial' is not 'not material'; fraud is never trivial regardless of amount."
+  },
+  {
+    "id": 566,
+    "question": "Under ISA 450, before forming the opinion the auditor must evaluate uncorrected misstatements:",
+    "choices": {
+      "A": "After the report is signed",
+      "B": "Only those found in the sample, without projection",
+      "C": "Only if any single item exceeds materiality",
+      "D": "Individually and in aggregate, considering size and nature, and request management to correct them"
+    },
+    "answer": "D",
+    "explanation": "Aggregation can make individually immaterial items material together; projected misstatements from sampling are part of the evaluation."
+  },
+  {
+    "id": 567,
+    "question": "The financial statements adequately disclose a material uncertainty related to going concern. The auditor should issue:",
+    "choices": {
+      "A": "An unmodified opinion with a separate 'Material Uncertainty Related to Going Concern' section",
+      "B": "An adverse opinion",
+      "C": "An Emphasis of Matter paragraph, the mechanism prescribed for this situation",
+      "D": "A qualified opinion"
+    },
+    "answer": "A",
+    "explanation": "Since the ISA 570 revision, the dedicated section replaced the Emphasis of Matter route; adequate disclosure means the opinion itself is not modified."
+  },
+  {
+    "id": 568,
+    "question": "Key Audit Matters under ISA 701:",
+    "choices": {
+      "A": "Replace the need for a qualified opinion where errors are found",
+      "B": "List all misstatements detected",
+      "C": "Are required in all audits including small entities",
+      "D": "Describe the matters of most significance in the audit of listed entities and are not a substitute for a modified opinion or for going-concern reporting"
+    },
+    "answer": "D",
+    "explanation": "KAM communicate audit focus; using them to smuggle in an unexpressed reservation is explicitly prohibited."
+  },
+  {
+    "id": 569,
+    "question": "The financial statements properly disclose a major fire that destroyed a warehouse after year end. To draw users' attention, the auditor uses:",
+    "choices": {
+      "A": "A Key Audit Matter, which is mandatory for such events",
+      "B": "An Other Matter paragraph, since it concerns an event outside the statements",
+      "C": "A qualified opinion",
+      "D": "An Emphasis of Matter paragraph, since the matter is appropriately presented in the statements"
+    },
+    "answer": "D",
+    "explanation": "Emphasis of Matter points to something properly disclosed in the statements; Other Matter concerns things not presented in them, such as prior-period audits by another auditor."
+  },
+  {
+    "id": 570,
+    "question": "The auditor concludes that revenue is materially misstated and the effects contaminate multiple line items and disclosures across the statements. The opinion is:",
+    "choices": {
+      "A": "Unmodified with an Emphasis of Matter",
+      "B": "A disclaimer, since the statements cannot be trusted",
+      "C": "Adverse",
+      "D": "Qualified, since the matter concerns one caption"
+    },
+    "answer": "C",
+    "explanation": "Misstatement that is material and pervasive gives an adverse opinion; a disclaimer responds to inability to obtain evidence, not to identified misstatement."
+  },
+  {
+    "id": 571,
+    "question": "Before accepting an engagement, management imposes a scope limitation that the auditor believes will result in a disclaimer of opinion. Under ISA 210 the auditor should:",
+    "choices": {
+      "A": "Accept but omit the affected area from the report",
+      "B": "Accept and issue a qualified opinion",
+      "C": "Not accept the engagement, unless required by law or regulation to proceed",
+      "D": "Accept and disclaim, since disclaimers are always available"
+    },
+    "answer": "C",
+    "explanation": "Accepting an engagement designed to be inconclusive undermines the audit's purpose; the pre-acceptance stage is where this is refused."
+  },
+  {
+    "id": 572,
+    "question": "After the auditor's report date but before the financial statements are issued, the auditor learns of a fact that would have changed the report. The auditor should:",
+    "choices": {
+      "A": "Inform the shareholders directly",
+      "B": "Amend the working papers silently",
+      "C": "Do nothing, as the report date closed the audit",
+      "D": "Discuss with management, determine whether the statements need amendment and take appropriate action, including a new or amended report where necessary"
+    },
+    "answer": "D",
+    "explanation": "ISA 560 imposes active duties between the report date and issuance; unilateral communication to third parties is not the prescribed route."
+  },
+  {
+    "id": 573,
+    "question": "Under ISA 250, the auditor's responsibility differs between laws with a direct effect on the financial statement amounts (such as tax law) and other laws (such as environmental licensing). For the latter, the auditor:",
+    "choices": {
+      "A": "Provides an opinion on compliance",
+      "B": "Has no responsibility whatsoever",
+      "C": "Must engage a lawyer in every audit",
+      "D": "Performs specified procedures to identify instances of non-compliance that may have a material effect, rather than testing compliance as such"
+    },
+    "answer": "D",
+    "explanation": "The distinction between direct-effect and other laws calibrates the depth of the auditor's work; there is no compliance opinion in a financial audit."
+  },
+  {
+    "id": 574,
+    "question": "Which matter must be communicated in writing to those charged with governance?",
+    "choices": {
+      "A": "Significant deficiencies in internal control identified during the audit",
+      "B": "The detailed audit programme",
+      "C": "Every misstatement found, including clearly trivial items",
+      "D": "The names of all staff interviewed"
+    },
+    "answer": "A",
+    "explanation": "ISA 265 requires written, timely communication of significant deficiencies; trivial items and internal methodology are not communicable matters."
+  },
+  {
+    "id": 575,
+    "question": "In a group audit, component performance materiality is set:",
+    "choices": {
+      "A": "Equal to group materiality for consistency",
+      "B": "Higher than group materiality for efficiency",
+      "C": "Lower than group performance materiality, to address aggregation risk across components",
+      "D": "By the component auditor without reference to the group"
+    },
+    "answer": "C",
+    "explanation": "If every component worked to group materiality, aggregated undetected misstatements could exceed it; the group engagement team sets and communicates component materiality."
+  },
+  {
+    "id": 576,
+    "question": "Under ISA 610, the external auditor may use internal auditors to provide direct assistance, but must NOT assign to them:",
+    "choices": {
+      "A": "Attendance at inventory counts",
+      "B": "Procedures involving significant judgements or higher assessed risks of material misstatement",
+      "C": "Any procedure at all, since direct assistance is prohibited universally",
+      "D": "Tests of details on low-risk balances"
+    },
+    "answer": "B",
+    "explanation": "Direct assistance, where law permits it, is confined to lower-judgement, lower-risk work under the external auditor's direction, supervision and review."
+  },
+  {
+    "id": 577,
+    "question": "Written representations from management must be dated:",
+    "choices": {
+      "A": "After the report, to cover subsequent events",
+      "B": "On the balance sheet date",
+      "C": "As near as practicable to, but not after, the date of the auditor's report",
+      "D": "On the date the fieldwork began"
+    },
+    "answer": "C",
+    "explanation": "Representations must cover the whole period up to the report date; dating them after the report is a contradiction in terms."
+  },
+  {
+    "id": 578,
+    "question": "The components of a system of quality management under ISQM 1 include governance and leadership, the firm's risk assessment process, and:",
+    "choices": {
+      "A": "The engagement partner's rotation schedule only",
+      "B": "The control environment, control activities and the audit universe",
+      "C": "Resources, information and communication, and the monitoring and remediation process",
+      "D": "The five COSO components verbatim"
+    },
+    "answer": "C",
+    "explanation": "ISQM 1 has eight components; grafting COSO's internal-control component names onto it is the designed trap."
+  },
+  {
+    "id": 579,
+    "question": "An engagement quality review under ISQM 2 is required for:",
+    "choices": {
+      "A": "Engagements selected by the client",
+      "B": "Every engagement of the firm without exception",
+      "C": "Audits of listed entities and other engagements the firm identifies through its quality risk assessment",
+      "D": "Only engagements where fraud was found"
+    },
+    "answer": "C",
+    "explanation": "The requirement is risk-driven beyond the listed-entity baseline; universal EQRs are neither required nor practicable."
+  },
+  {
+    "id": 580,
+    "question": "ISSAI 140 differs from a QAIP under the IIA framework in that ISSAI 140:",
+    "choices": {
+      "A": "Requires an external quality assessment every five years",
+      "B": "Applies to private audit firms",
+      "C": "Addresses the institution-wide quality control system of an SAI, adapted to its public mandate, rather than the improvement programme of an internal audit function",
+      "D": "Covers only performance audits"
+    },
+    "answer": "C",
+    "explanation": "The five-year EQA cycle belongs to the IIA world; ISSAI 140 organises quality across the SAI's whole mandate, drawing on the ISQC/ISQM logic."
+  },
+  {
+    "id": 581,
+    "question": "The COSO principle requiring the board to demonstrate independence from management and exercise oversight belongs to the component:",
+    "choices": {
+      "A": "Risk assessment",
+      "B": "Control environment",
+      "C": "Governance and culture",
+      "D": "Monitoring activities"
+    },
+    "answer": "B",
+    "explanation": "Principle 2 sits in the control environment; 'governance and culture' is a COSO ERM component, not an internal-control component."
+  },
+  {
+    "id": 582,
+    "question": "An entity has strong control activities but its monitoring component contains a major deficiency. Under COSO, its internal control is:",
+    "choices": {
+      "A": "Effective for operations but not for reporting, by definition",
+      "B": "Effective, because four of five components suffice",
+      "C": "Not effective, because effectiveness requires all five components present, functioning and operating together",
+      "D": "Effective if the external audit found no misstatement"
+    },
+    "answer": "C",
+    "explanation": "The framework has no majority rule; a major deficiency in any component defeats overall effectiveness."
+  },
+  {
+    "id": 583,
+    "question": "Ongoing evaluations differ from separate evaluations in that ongoing evaluations are:",
+    "choices": {
+      "A": "Built into business processes and provide timely information, while separate evaluations are periodic and their scope depends on risk and the results of ongoing monitoring",
+      "B": "Performed by the external auditor",
+      "C": "Optional under COSO",
+      "D": "Another name for internal audit engagements"
+    },
+    "answer": "A",
+    "explanation": "Both are monitoring mechanisms of management; internal audit's engagements can inform but do not constitute management's monitoring."
+  },
+  {
+    "id": 584,
+    "question": "Which list contains ONLY components of COSO ERM 2017?",
+    "choices": {
+      "A": "Control environment; risk assessment; control activities; information and communication; monitoring",
+      "B": "Governance and culture; risk assessment; control activities; performance; monitoring",
+      "C": "Strategy; risk response; event identification; objective setting; internal environment",
+      "D": "Governance and culture; strategy and objective-setting; performance; review and revision; information, communication and reporting"
+    },
+    "answer": "D",
+    "explanation": "Option B is the internal control framework, option C mixes the two, and option D lists components of the superseded 2004 ERM cube."
+  },
+  {
+    "id": 585,
+    "question": "An internal audit function is asked to take over the compliance monitoring of sanctions screening 'because it has the expertise'. Under the Three Lines Model this would:",
+    "choices": {
+      "A": "Be a natural third line activity",
+      "B": "Be acceptable without safeguards because the lines are only roles",
+      "C": "Place internal audit in a second line role, requiring safeguards and alternative assurance if accepted, since third line independence would otherwise be compromised",
+      "D": "Convert the function into first line"
+    },
+    "answer": "C",
+    "explanation": "The flexibility of roles does not abolish the requirement that assurance over an activity be independent of those performing it."
+  },
+  {
+    "id": 586,
+    "question": "In the Three Lines Model, the external auditor is:",
+    "choices": {
+      "A": "The third line",
+      "B": "Part of the governing body",
+      "C": "The fourth line",
+      "D": "Outside the model, as an external assurance provider"
+    },
+    "answer": "D",
+    "explanation": "The model describes internal roles; external assurance complements it from outside."
+  },
+  {
+    "id": 587,
+    "question": "The board approves the enterprise's IT risk appetite and monitors whether management operates within it. In COBIT terms this is an activity of:",
+    "choices": {
+      "A": "The DSS management domain",
+      "B": "The MEA management domain",
+      "C": "The EDM governance domain",
+      "D": "The APO management domain"
+    },
+    "answer": "C",
+    "explanation": "Evaluating options, directing through risk appetite and monitoring conformance is the definition of governance; MEA is management's own monitoring."
+  },
+  {
+    "id": 588,
+    "question": "The claim that 'COBIT is a framework about IT processes only' is wrong because:",
+    "choices": {
+      "A": "COBIT applies only to financial reporting",
+      "B": "COBIT contains no processes at all",
+      "C": "Its governance system comprises seven components including culture, people and organisational structures, not processes alone",
+      "D": "COBIT replaced processes with capability levels"
+    },
+    "answer": "C",
+    "explanation": "Processes are one of seven components; the holistic-approach principle makes this explicit."
+  },
+  {
+    "id": 589,
+    "question": "In COBIT 2019, capability levels are assessed:",
+    "choices": {
+      "A": "Only at enterprise level",
+      "B": "By certification bodies exclusively",
+      "C": "On a 1-3 scale",
+      "D": "Per process activity on a 0-5 scale, while maturity can be expressed for focus areas"
+    },
+    "answer": "D",
+    "explanation": "The granular capability scheme replaced the older maturity-model usage; external certification is not part of COBIT."
+  },
+  {
+    "id": 590,
+    "question": "An organisation claims to be 'certified against ISO 31000 and NIST CSF'. The claim is suspect because:",
+    "choices": {
+      "A": "Certification requires EU approval",
+      "B": "NIST certification is valid only in the United States",
+      "C": "Both certifications exist but only for banks",
+      "D": "Neither ISO 31000 nor the NIST CSF is a certifiable standard, unlike ISO/IEC 27001"
+    },
+    "answer": "D",
+    "explanation": "Auditors should recognise which frameworks carry certification schemes; misstated certifications are themselves a red flag."
+  },
+  {
+    "id": 591,
+    "question": "In the Global Internal Audit Standards, the former Code of Ethics principles of integrity, objectivity, confidentiality and competency:",
+    "choices": {
+      "A": "Are integrated into the Ethics and Professionalism domain, with due professional care and professional scepticism elevated alongside them",
+      "B": "Remain a separate document outside the Standards",
+      "C": "Were abolished",
+      "D": "Apply only to certified internal auditors"
+    },
+    "answer": "A",
+    "explanation": "The consolidation into a single document is a defining feature of the 2024 Standards."
+  },
+  {
+    "id": 592,
+    "question": "The values of ISSAI 130, the Code of Ethics for the public sector auditing community, are:",
+    "choices": {
+      "A": "Integrity, independence and objectivity, competence, professional behaviour, and confidentiality and transparency",
+      "B": "Economy, efficiency and effectiveness",
+      "C": "Legality, regularity and reliability",
+      "D": "Integrity, objectivity, confidentiality, competency, exactly as the IIA code"
+    },
+    "answer": "A",
+    "explanation": "The public-sector code pairs confidentiality with transparency, reflecting SAIs' duty to the public, a nuance absent from the IIA formulation."
+  },
+  {
+    "id": 593,
+    "question": "An internal audit function undergoes a review by the internal audit function of a partner institution under a memorandum of understanding, with a negotiated scope. This exercise:",
+    "choices": {
+      "A": "Is prohibited by the standards",
+      "B": "Replaces ongoing internal monitoring",
+      "C": "Is a peer review, which does not by itself satisfy the requirement for an external quality assessment unless it meets the independence and qualification conditions of an EQA",
+      "D": "Automatically constitutes the required external quality assessment"
+    },
+    "answer": "C",
+    "explanation": "A peer review can be designed to qualify as an EQA, but only if the assessors are independent, qualified and external to the organisation; the label alone is not enough."
+  },
+  {
+    "id": 594,
+    "question": "GUID pronouncements such as GUID 3910 and GUID 5100:",
+    "choices": {
+      "A": "Are binding on EU audit authorities by regulation",
+      "B": "Are issued by the IAASB",
+      "C": "Provide non-mandatory guidance supporting the application of the ISSAIs",
+      "D": "Impose requirements equal to ISSAI level"
+    },
+    "answer": "C",
+    "explanation": "Treating GUIDs as requirements level is a classic status confusion within the IFPP."
+  },
+  {
+    "id": 595,
+    "question": "The Lima Declaration and the Mexico Declaration differ in that Lima:",
+    "choices": {
+      "A": "Lists the eight independence principles, while Mexico is the founding charter",
+      "B": "Was adopted by the United Nations",
+      "C": "Concerns internal audit, while Mexico concerns external audit",
+      "D": "Sets out the foundational principles of government auditing, including the necessity of independence, while Mexico articulates eight specific principles of SAI independence"
+    },
+    "answer": "D",
+    "explanation": "Reversing the content of the two declarations is the standard distractor; Lima 1977 is the 'Magna Carta', Mexico 2007 operationalises independence."
+  },
+  {
+    "id": 596,
+    "question": "INTOSAI-P 12 organises the value and benefits of SAIs into three pillars, namely:",
+    "choices": {
+      "A": "Economy, efficiency and effectiveness",
+      "B": "Strengthening accountability, transparency and integrity; demonstrating ongoing relevance to citizens and stakeholders; being a model organisation leading by example",
+      "C": "Planning, performing and reporting",
+      "D": "Independence, mandate and resources"
+    },
+    "answer": "B",
+    "explanation": "'Making a difference to the lives of citizens' is the framing idea of the 2013 pronouncement."
+  },
+  {
+    "id": 597,
+    "question": "A ministry publishes a statement asserting its compliance with public procurement law, and the SAI audits and reports on that statement. This is:",
+    "choices": {
+      "A": "A compliance audit conducted as direct reporting",
+      "B": "A compliance audit conducted as an attestation engagement",
+      "C": "A performance audit with compliance elements",
+      "D": "A financial audit"
+    },
+    "answer": "B",
+    "explanation": "The responsible party has measured and presented the subject matter information; the auditor opines on it. Had the SAI itself measured compliance and reported, it would be direct reporting."
+  },
+  {
+    "id": 598,
+    "question": "Which wording corresponds to limited assurance?",
+    "choices": {
+      "A": "'Nothing has come to our attention that causes us to believe the statement is materially misstated'",
+      "B": "'The statement is free from error'",
+      "C": "'We certify that the statement is correct'",
+      "D": "'In our opinion, the statement is prepared, in all material respects, in accordance with the criteria'"
+    },
+    "answer": "A",
+    "explanation": "Negative-form wording signals limited assurance; positive-form signals reasonable assurance; certification of correctness is not an audit conclusion at all."
+  },
+  {
+    "id": 599,
+    "question": "To use an analytical procedure as a substantive test, the auditor must first:",
+    "choices": {
+      "A": "Confirm the balance with a third party",
+      "B": "Test 100 % of the underlying transactions",
+      "C": "Establish the reliability of the data, develop a sufficiently precise expectation and define the acceptable difference before investigating deviations",
+      "D": "Obtain management's agreement to the expected value"
+    },
+    "answer": "C",
+    "explanation": "ISA 520's discipline is what separates a substantive analytic from a mere plausibility glance; agreement of management is irrelevant to the expectation."
+  },
+  {
+    "id": 600,
+    "question": "Evidence can be reliable yet irrelevant. Which example illustrates this?",
+    "choices": {
+      "A": "A bank confirmation of the year-end balance, used to conclude on the completeness of unrecorded liabilities",
+      "B": "A management representation used as sole support",
+      "C": "An oral explanation used to conclude on a valuation",
+      "D": "A photocopied invoice used to support existence"
+    },
+    "answer": "A",
+    "explanation": "The confirmation is highly reliable but speaks to existence and accuracy of the recorded balance, not to what is missing; relevance depends on the assertion tested."
+  },
+  {
+    "id": 601,
+    "question": "To search for unrecorded liabilities at year end, the most effective direction of testing is from:",
+    "choices": {
+      "A": "The purchase orders to the goods received notes",
+      "B": "Payments made and invoices received after year end back to the year-end liability records",
+      "C": "The trial balance to the financial statements",
+      "D": "The liability ledger to the supporting invoices"
+    },
+    "answer": "B",
+    "explanation": "Completeness is tested from outside the records inwards; tracing from the ledger outwards tests existence of what is already recorded, exactly the wrong direction."
+  },
+  {
+    "id": 602,
+    "question": "Negative confirmation requests may be used as the sole substantive procedure only where:",
+    "choices": {
+      "A": "Fraud risk has been identified in receivables",
+      "B": "Management refuses positive confirmations",
+      "C": "The balances are large and few",
+      "D": "The risk is low, the population comprises many small homogeneous balances, a very low exception rate is expected and recipients can be expected to give the request consideration"
+    },
+    "answer": "D",
+    "explanation": "All four conditions of ISA 505 must hold; large balances or elevated risk demand positive confirmation or other procedures."
+  },
+  {
+    "id": 603,
+    "question": "A customer fails to reply to a positive confirmation request. The auditor should:",
+    "choices": {
+      "A": "Treat the balance as misstated",
+      "B": "Accept management's explanation for the balance",
+      "C": "Perform alternative procedures such as examining subsequent cash receipts and underlying documentation",
+      "D": "Exclude the item from the sample as an anomaly"
+    },
+    "answer": "C",
+    "explanation": "Non-response is not evidence of misstatement; it merely leaves the assertion untested until alternative procedures are performed."
+  },
+  {
+    "id": 604,
+    "question": "Management asks the auditor not to confirm one specific large receivable, citing a delicate commercial negotiation. The auditor should:",
+    "choices": {
+      "A": "Assess whether the reason is reasonable, perform alternative procedures and, if the refusal is unreasonable or evidence cannot be obtained, treat it as a scope limitation and inform those charged with governance",
+      "B": "Resign immediately",
+      "C": "Comply without further steps, as client relations prevail",
+      "D": "Confirm anyway against management's instruction"
+    },
+    "answer": "A",
+    "explanation": "ISA 505 prescribes exactly this escalation; neither silent compliance nor defiance of management is the standard response."
+  },
+  {
+    "id": 605,
+    "question": "Rank these items of evidence on the valuation of a listed security from most to least reliable: (1) a price screenshot supplied by the auditee's treasurer; (2) the price obtained by the auditor directly from an independent pricing service; (3) the treasurer's oral explanation.",
+    "choices": {
+      "A": "2, 3, 1",
+      "B": "3, 2, 1",
+      "C": "2, 1, 3",
+      "D": "1, 2, 3"
+    },
+    "answer": "C",
+    "explanation": "Directly obtained external evidence outranks auditee-forwarded external evidence, which outranks oral representations; the forwarding step is where manipulation can occur."
+  },
+  {
+    "id": 606,
+    "question": "A statistical sample of 90 items yields zero errors. The correct conclusion is that:",
+    "choices": {
+      "A": "The projected error is zero, but the auditor must still consider the allowance for sampling risk before concluding the population is acceptable",
+      "B": "The population is certainly free of error",
+      "C": "The tolerable misstatement can be raised",
+      "D": "The sample was too small and must be discarded"
+    },
+    "answer": "A",
+    "explanation": "Zero detected error still leaves an upper error limit driven by sample size and confidence; certainty is never available from a sample."
+  },
+  {
+    "id": 607,
+    "question": "Monetary unit sampling is least suited to detecting:",
+    "choices": {
+      "A": "Overstated receivables",
+      "B": "Understated or omitted liabilities, since items recorded at low or zero value have little or no chance of selection",
+      "C": "Ineligible amounts in large declared expenditure items",
+      "D": "Errors concentrated in high-value items"
+    },
+    "answer": "B",
+    "explanation": "Selection probability proportional to recorded value is precisely why MUS favours overstatement testing and struggles with omissions."
+  },
+  {
+    "id": 608,
+    "question": "A population is split into a high-value stratum tested 100 % and a residual stratum tested by sample. Errors found in the high-value stratum are:",
+    "choices": {
+      "A": "Ignored, as the stratum was fully tested",
+      "B": "Included at their actual value, without projection, while only the sampled stratum's errors are projected",
+      "C": "Averaged with the sampled errors",
+      "D": "Projected to the whole population"
+    },
+    "answer": "B",
+    "explanation": "Projection applies only to sampled populations; extrapolating fully tested items would double count."
+  },
+  {
+    "id": 609,
+    "question": "If the expected error in a population approaches or exceeds the tolerable misstatement, the auditor should conclude that:",
+    "choices": {
+      "A": "A smaller sample will suffice",
+      "B": "The confidence level should be reduced to compensate",
+      "C": "Sampling is unlikely to be an appropriate strategy and a different or more extensive response is needed",
+      "D": "Materiality should be increased"
+    },
+    "answer": "C",
+    "explanation": "Sampling presumes the expected error is comfortably below the tolerable level; adjusting confidence or materiality to force a pass inverts the logic of the audit."
+  },
+  {
+    "id": 610,
+    "question": "An auditor selects items by scrolling through the ledger and picking entries 'at random by eye', then evaluates the results statistically. The evaluation is invalid because:",
+    "choices": {
+      "A": "The sample is too small by definition",
+      "B": "Statistical evaluation requires stratification",
+      "C": "Ledger data may not be used for sampling",
+      "D": "Haphazard selection is not random selection, so probability theory cannot be applied to the results"
+    },
+    "answer": "D",
+    "explanation": "Statistical evaluation requires a selection method giving each item a known probability of selection; haphazard picking carries unconscious bias."
+  },
+  {
+    "id": 611,
+    "question": "Selecting all payments from March as the sample for the year ('block selection') is weak because:",
+    "choices": {
+      "A": "Blocks are prohibited by the Financial Regulation",
+      "B": "The block may not be representative of conditions throughout the period, and the results cannot be projected to the year",
+      "C": "March is always atypical",
+      "D": "It tests too many items"
+    },
+    "answer": "B",
+    "explanation": "Time-based blocks miss seasonality, staff changes and period-end pressure; representativeness across the period is the issue."
+  },
+  {
+    "id": 612,
+    "question": "Attribute sampling and variables (monetary) sampling differ in that attribute sampling measures:",
+    "choices": {
+      "A": "Populations below materiality",
+      "B": "The rate of deviation from a control, while variables sampling estimates a monetary amount of misstatement",
+      "C": "Monetary amounts, while variables sampling measures deviation rates",
+      "D": "Only IT controls"
+    },
+    "answer": "B",
+    "explanation": "Control testing counts deviations; substantive testing quantifies euros - mixing the two conclusions is a classic error."
+  },
+  {
+    "id": 613,
+    "question": "Which factor has, for large populations, the LEAST effect on the required statistical sample size?",
+    "choices": {
+      "A": "The confidence level required",
+      "B": "The expected error rate",
+      "C": "The tolerable misstatement",
+      "D": "The absolute size of the population"
+    },
+    "answer": "D",
+    "explanation": "Beyond a few thousand items population size barely moves the sample size; the other three drive it directly."
+  },
+  {
+    "id": 614,
+    "question": "During an EU regularity audit the beneficiary corrects an ineligible cost immediately after the auditor detects it. For the error rate calculation the amount is:",
+    "choices": {
+      "A": "Treated as an anomaly",
+      "B": "Counted at half its value",
+      "C": "Excluded, since it was corrected",
+      "D": "Still counted as an error, since the correction occurred only because of the audit"
+    },
+    "answer": "D",
+    "explanation": "The error rate measures the system's ability to prevent and detect errors before the auditor arrives; corrections triggered by the audit do not cleanse the population tested."
+  },
+  {
+    "id": 615,
+    "question": "Disaggregating an analytical procedure (by month, by programme, by region) improves it because:",
+    "choices": {
+      "A": "It reduces the volume of data needed",
+      "B": "It eliminates non-sampling risk",
+      "C": "Expectations become more precise and offsetting deviations that would hide at aggregate level become visible",
+      "D": "It replaces the need for a reliability assessment of the data"
+    },
+    "answer": "C",
+    "explanation": "Aggregate comparisons can net out large opposite errors; precision of the expectation is what gives an analytic its power."
+  },
+  {
+    "id": 616,
+    "question": "ISA 240 requires the auditor to incorporate an element of unpredictability into procedures. A valid example is:",
+    "choices": {
+      "A": "Testing only material items every year",
+      "B": "Informing the auditee of the sample in advance for efficiency",
+      "C": "Repeating exactly the prior year's programme",
+      "D": "Testing balances or locations below the usual testing threshold, or varying the timing of procedures from year to year"
+    },
+    "answer": "D",
+    "explanation": "Predictable audits can be circumvented; unpredictability is a direct fraud response."
+  },
+  {
+    "id": 617,
+    "question": "An important explanation was obtained orally from the head of unit. For the audit file, the correct treatment is that:",
+    "choices": {
+      "A": "The note of the discussion converts the inquiry into sufficient evidence",
+      "B": "The auditor documents the discussion (who, when, substance) and seeks corroboration; the oral statement alone is not sufficient evidence",
+      "C": "Only signed statements may be filed",
+      "D": "Oral evidence cannot be documented"
+    },
+    "answer": "B",
+    "explanation": "Recording the inquiry is necessary but does not upgrade its evidential weight; corroboration remains required."
+  },
+  {
+    "id": 618,
+    "question": "The engagement quality reviewer discovers, before the report is issued, that a significant judgement is not adequately supported. The report:",
+    "choices": {
+      "A": "May be issued with the matter noted for next year",
+      "B": "May be issued if the engagement partner overrules the reviewer",
+      "C": "Must not be dated and issued until the matter is resolved to the reviewer's satisfaction",
+      "D": "Must be withdrawn from the client"
+    },
+    "answer": "C",
+    "explanation": "Completion of the engagement quality review is a precondition for dating the report; the partner cannot simply override it."
+  },
+  {
+    "id": 619,
+    "question": "Under ISA 450, the difference between management's point estimate for a provision and the closest end of the auditor's acceptable range is classified as a:",
+    "choices": {
+      "A": "Clearly trivial difference",
+      "B": "Factual misstatement",
+      "C": "Judgemental misstatement",
+      "D": "Projected misstatement"
+    },
+    "answer": "C",
+    "explanation": "Factual misstatements are indisputable; projected ones come from sampling; estimate differences are judgemental - the taxonomy matters for evaluation and communication."
+  },
+  {
+    "id": 620,
+    "question": "No misstatement occurred during the year in an area with a serious control deficiency. The deficiency is:",
+    "choices": {
+      "A": "Automatically insignificant",
+      "B": "Not reportable, since nothing went wrong",
+      "C": "Reportable only to the process owner",
+      "D": "Still evaluated on the likelihood and potential magnitude of misstatement, and may be significant despite the absence of actual error"
+    },
+    "answer": "D",
+    "explanation": "Deficiency severity is prospective; absence of error may be luck, low volume or compensating factors."
+  },
+  {
+    "id": 621,
+    "question": "A dual-purpose test is one in which the auditor:",
+    "choices": {
+      "A": "Tests the operation of a control and the monetary accuracy of the same transaction using the same sample item",
+      "B": "Uses two team members per item",
+      "C": "Performs the test twice for reliability",
+      "D": "Tests two assertions of two different populations"
+    },
+    "answer": "A",
+    "explanation": "Efficiency device combining a test of controls and a substantive test; the two conclusions must nonetheless be evaluated separately."
+  },
+  {
+    "id": 622,
+    "question": "To verify that the system's automatic interest computation on late payments is correct, the auditor independently computes interest for a sample of invoices and compares. This procedure is:",
+    "choices": {
+      "A": "Reperformance of a control",
+      "B": "Recalculation",
+      "C": "External confirmation",
+      "D": "An analytical procedure"
+    },
+    "answer": "B",
+    "explanation": "Checking mathematical accuracy of amounts is recalculation; reperformance would be executing the control activity itself, such as redoing the three-way match."
+  },
+  {
+    "id": 623,
+    "question": "Goods were received on 28 December; the supplier's invoice is dated 5 January and was recorded in January. In accrual terms the expenditure belongs to:",
+    "choices": {
+      "A": "The old year, and an accrual should have been recognised at year end",
+      "B": "The new year, following the invoice date",
+      "C": "The year of payment",
+      "D": "Whichever year management prefers"
+    },
+    "answer": "A",
+    "explanation": "The obligating event is the receipt of goods; invoice and payment dates are cash-basis reflexes that create cut-off errors."
+  },
+  {
+    "id": 624,
+    "question": "An auditor discovers during fieldwork that a significant supplier is owned by the finance director's brother, a fact not disclosed as a related party. The correct response is to:",
+    "choices": {
+      "A": "Reassess the risk assessment, perform procedures on the relationship and transactions, consider why it was not disclosed and evaluate the implications for fraud risk and representations",
+      "B": "Ignore it if prices were at market level",
+      "C": "Simply add the name to the disclosure list",
+      "D": "Report it to the tax authorities"
+    },
+    "answer": "A",
+    "explanation": "An undisclosed related party is a red flag about the control environment and management integrity, not merely a disclosure gap."
+  },
+  {
+    "id": 625,
+    "question": "When auditing a management estimate such as a provision for grant recoveries, the auditor's options under ISA 540 include testing how management made it, developing an auditor's estimate, and:",
+    "choices": {
+      "A": "Accepting the estimate if it is conservative",
+      "B": "Requiring the auditee to use the auditor's model",
+      "C": "Using events occurring up to the report date as evidence about the estimate",
+      "D": "Excluding the estimate from the audit as inherently uncertain"
+    },
+    "answer": "C",
+    "explanation": "Subsequent events often resolve estimation uncertainty; conservatism is itself a bias, not a defence."
+  },
+  {
+    "id": 626,
+    "question": "A retrospective review of prior-year estimates is performed primarily to:",
+    "choices": {
+      "A": "Set materiality",
+      "B": "Reduce the sample size",
+      "C": "Identify possible management bias and assess the reliability of the estimation process",
+      "D": "Correct the prior year's accounts"
+    },
+    "answer": "C",
+    "explanation": "Systematic one-directional misses in past estimates indicate bias, which feeds the fraud risk assessment."
+  },
+  {
+    "id": 627,
+    "question": "Management refuses to provide the written representations required by ISA 580. The auditor:",
+    "choices": {
+      "A": "Issues a qualified opinion in all cases",
+      "B": "Discusses the matter, re-evaluates management's integrity and, if the refusal persists on required representations, disclaims the opinion",
+      "C": "Replaces the representations with an internal memo",
+      "D": "Issues an unmodified opinion noting the refusal"
+    },
+    "answer": "B",
+    "explanation": "Refusal of the fundamental representations poisons the reliability of all evidence obtained; the prescribed outcome is a disclaimer, not a qualification."
+  },
+  {
+    "id": 628,
+    "question": "In an initial audit engagement, the auditor's responsibility for opening balances is to obtain sufficient appropriate evidence that they:",
+    "choices": {
+      "A": "Were audited by the predecessor, which is always sufficient",
+      "B": "Are covered by the predecessor's opinion, transferring responsibility",
+      "C": "Equal the prior year's closing balances, which completes the work",
+      "D": "Do not contain misstatements materially affecting the current period and that accounting policies have been consistently applied"
+    },
+    "answer": "D",
+    "explanation": "Agreement to prior closing balances is only the starting point; the predecessor's work may inform but does not discharge the incoming auditor's responsibility."
+  },
+  {
+    "id": 629,
+    "question": "A court case existing at year end is settled for a materially different amount three weeks after year end, before the report is signed. This is:",
+    "choices": {
+      "A": "A non-adjusting event requiring disclosure only",
+      "B": "An adjusting event, providing evidence of conditions existing at the reporting date",
+      "C": "A matter for next year's audit",
+      "D": "Outside the auditor's responsibility"
+    },
+    "answer": "B",
+    "explanation": "The obligation existed at year end; the settlement measures it. A fire destroying assets after year end would be the non-adjusting counterpart."
+  },
+  {
+    "id": 630,
+    "question": "Management's plans to mitigate going-concern doubt (asset sales, new financing) must be evaluated by the auditor for:",
+    "choices": {
+      "A": "Board approval only",
+      "B": "Consistency with the prior year's plans",
+      "C": "Feasibility and the likelihood that they can be effectively implemented in the circumstances",
+      "D": "Their optimism, which is welcome"
+    },
+    "answer": "C",
+    "explanation": "Intentions are not evidence; the auditor tests whether the plans are realistic, supported and within management's control."
+  },
+  {
+    "id": 631,
+    "question": "In a group audit, a component is 'significant' where it:",
+    "choices": {
+      "A": "Represents less than 1 % of group assets",
+      "B": "Has its own auditor",
+      "C": "Operates in a different country",
+      "D": "Is of individual financial significance to the group, or is likely to include significant risks of material misstatement of the group statements"
+    },
+    "answer": "D",
+    "explanation": "Significance drives the required work; geography and the existence of a component auditor are irrelevant to the classification."
+  },
+  {
+    "id": 632,
+    "question": "A type 1 service organisation report differs from a type 2 report in that type 1 covers:",
+    "choices": {
+      "A": "Operating effectiveness over the period",
+      "B": "Only IT controls",
+      "C": "The user entity's own controls",
+      "D": "The design and implementation of controls at a point in time, without evidence on operating effectiveness over a period"
+    },
+    "answer": "D",
+    "explanation": "For reliance on operating effectiveness during the audited period, a type 2 report is needed; a type 1 report cannot support control reliance."
+  },
+  {
+    "id": 633,
+    "question": "Before using the work of the internal audit function, the external auditor evaluates:",
+    "choices": {
+      "A": "Whether it uses the same software as the external auditor",
+      "B": "Whether it reports to the finance director, which is preferable",
+      "C": "Its organisational status and objectivity, its competence, and whether it applies a systematic and disciplined approach including quality control",
+      "D": "Only the number of its staff"
+    },
+    "answer": "C",
+    "explanation": "Reporting to the finance director would weigh against reliance, not for it; the three-part evaluation is the ISA 610 gateway."
+  },
+  {
+    "id": 634,
+    "question": "A management's expert differs from an auditor's expert in that a management's expert:",
+    "choices": {
+      "A": "Renders the item outside audit scope",
+      "B": "Is used by the entity to prepare the financial statements, so their work is treated as entity-produced information whose competence, capabilities and objectivity the auditor must evaluate",
+      "C": "Works under the auditor's direction",
+      "D": "Cannot be evaluated by the auditor"
+    },
+    "answer": "B",
+    "explanation": "The actuary valuing pension liabilities for the entity is management's expert; the auditor may engage their own expert to challenge the result."
+  },
+  {
+    "id": 635,
+    "question": "The auditor cannot obtain evidence on a material inventory balance held abroad, but the effect is confined to that balance. The opinion is:",
+    "choices": {
+      "A": "Adverse",
+      "B": "Qualified for a scope limitation",
+      "C": "Unmodified with an Other Matter paragraph",
+      "D": "A disclaimer of opinion"
+    },
+    "answer": "B",
+    "explanation": "Inability to obtain evidence that is material but not pervasive gives a qualification; the disclaimer requires pervasiveness."
+  },
+  {
+    "id": 636,
+    "question": "'Pervasive' effects, in the ISA 705 sense, are those that:",
+    "choices": {
+      "A": "Affect more than three account balances",
+      "B": "Are not confined to specific elements, or represent a substantial proportion of the statements, or are fundamental to users' understanding",
+      "C": "Involve fraud",
+      "D": "Exceed twice materiality"
+    },
+    "answer": "B",
+    "explanation": "Pervasiveness is a qualitative judgement about spread and fundamentality, not an arithmetic multiple or a count of captions."
+  },
+  {
+    "id": 637,
+    "question": "The matter that gave rise to a qualified opinion should be:",
+    "choices": {
+      "A": "Listed among the Key Audit Matters as the most important one",
+      "B": "Described in the Basis for Qualified Opinion section, and not presented as a Key Audit Matter",
+      "C": "Omitted to keep the report short",
+      "D": "Mentioned only orally to the audit committee"
+    },
+    "answer": "B",
+    "explanation": "ISA 701 prohibits using KAM as a substitute vehicle for matters that belong in the basis-for-modification section."
+  },
+  {
+    "id": 638,
+    "question": "The auditor's report must not be dated earlier than the date on which:",
+    "choices": {
+      "A": "The fieldwork began",
+      "B": "Sufficient appropriate evidence has been obtained and those with recognised authority have asserted responsibility for the financial statements",
+      "C": "The management letter was sent",
+      "D": "The audit committee met"
+    },
+    "answer": "B",
+    "explanation": "The report date fixes the end of the subsequent events responsibility and cannot precede approval of the statements."
+  },
+  {
+    "id": 639,
+    "question": "An auditor identifies a EUR 4 000 fraud committed by a senior manager, far below materiality. The correct treatment is to:",
+    "choices": {
+      "A": "Re-evaluate the risk assessment and the reliability of representations, and communicate the matter to those charged with governance, since fraud by management is never trivial",
+      "B": "Report it in the opinion paragraph",
+      "C": "Extend testing only if the amount doubles",
+      "D": "Ignore it as immaterial"
+    },
+    "answer": "A",
+    "explanation": "The identity of the perpetrator, not the amount, drives the response; management fraud undermines the foundation of the audit evidence."
+  },
+  {
+    "id": 640,
+    "question": "During an audit of EU funds, the auditor identifies facts suggesting corruption in a national managing body. In addition to the audit reporting, the auditor's institution should:",
+    "choices": {
+      "A": "Publish the names of the suspects in the audit report",
+      "B": "Do nothing beyond the audit report",
+      "C": "Report the suspicion to OLAF (and, where applicable, the EPPO), in line with the duty to protect the Union's financial interests",
+      "D": "Await the national election results"
+    },
+    "answer": "C",
+    "explanation": "Audit reporting and fraud reporting are parallel obligations; naming suspects publicly would breach presumption of innocence and data protection."
+  },
+  {
+    "id": 641,
+    "question": "In a test of controls, a sampled invoice was approved by a deputy during the approver's leave, in line with the delegation rules. This is:",
+    "choices": {
+      "A": "An anomaly to be excluded",
+      "B": "Not a deviation, since the control operated as designed through the authorised delegate",
+      "C": "A deviation to be projected",
+      "D": "A monetary error"
+    },
+    "answer": "B",
+    "explanation": "Understanding the control's design prevents false deviations; conversely, approval by an unauthorised person would be a deviation even if the amount was correct."
+  },
+  {
+    "id": 642,
+    "question": "In monetary unit sampling, a EUR 10 000 sampled item contains a EUR 2 000 error. The 'tainting' concept means that:",
+    "choices": {
+      "A": "The error is doubled for prudence",
+      "B": "The 20 % error proportion of that item is applied to the sampling interval to project the error it represents",
+      "C": "The item is removed from the population",
+      "D": "The full EUR 2 000 is the projected error"
+    },
+    "answer": "B",
+    "explanation": "Tainting scales the error to the population share the item represents; adding raw errors ignores the projection logic."
+  },
+  {
+    "id": 643,
+    "question": "Before concluding, the auditor compares materiality with:",
+    "choices": {
+      "A": "The corrected misstatements",
+      "B": "Factual misstatements only",
+      "C": "The largest single misstatement only",
+      "D": "The aggregate of factual, judgemental and projected uncorrected misstatements, considering also qualitative factors"
+    },
+    "answer": "D",
+    "explanation": "Corrected items no longer misstate the accounts; everything uncorrected, including projections, enters the evaluation."
+  },
+  {
+    "id": 644,
+    "question": "The statement 'audit evidence is persuasive rather than conclusive' means that:",
+    "choices": {
+      "A": "Conclusions may be based on impressions",
+      "B": "Any level of evidence suffices",
+      "C": "The auditor forms a judgement on the balance of evidence obtained at reasonable cost, accepting that absolute proof is unattainable",
+      "D": "The auditor certifies the accounts as correct"
+    },
+    "answer": "C",
+    "explanation": "This is the root of the reasonable-assurance concept and of the inherent limitations of audit."
+  },
+  {
+    "id": 645,
+    "question": "Control risk is assessed as high and inherent risk as high for a material assertion. Compared with a low-risk assertion, the auditor's substantive procedures will be:",
+    "choices": {
+      "A": "Performed only at an interim date",
+      "B": "Replaced by tests of controls",
+      "C": "More extensive, more reliable in nature, and closer to or at the period end",
+      "D": "Unchanged, since substantive work is fixed"
+    },
+    "answer": "C",
+    "explanation": "Nature, timing and extent all respond to risk; testing controls that are expected to be ineffective would be pointless."
+  },
+  {
+    "id": 646,
+    "question": "The purpose of clearing the draft findings with the auditee (contradictory procedure) is to:",
+    "choices": {
+      "A": "Delay publication",
+      "B": "Negotiate the error rate",
+      "C": "Obtain the auditee's approval of the conclusions",
+      "D": "Verify factual accuracy and completeness and gather the auditee's views, without giving the auditee a veto over the conclusions"
+    },
+    "answer": "D",
+    "explanation": "Facts are verified; conclusions remain the auditor's own, with the auditee's replies reflected in or annexed to the report."
+  },
+  {
+    "id": 647,
+    "question": "A beneficiary provides, three months after fieldwork and after seeing the draft finding, a previously 'unavailable' procurement file that appears newly assembled. The auditor should:",
+    "choices": {
+      "A": "Withdraw the finding automatically, since documentation now exists",
+      "B": "Assess the authenticity and probative value of the late evidence with heightened scepticism before amending any finding",
+      "C": "Refuse to look at any late evidence",
+      "D": "Accept the file and apologise"
+    },
+    "answer": "B",
+    "explanation": "Late-produced evidence must be weighed, not automatically accepted or rejected; indicators of fabrication would escalate the matter."
+  },
+  {
+    "id": 648,
+    "question": "An audit finding is challenged on the ground that 'the previous audit did not raise it'. The correct response is that:",
+    "choices": {
+      "A": "Prior silence does not validate the practice; each audit concludes on the evidence and criteria applicable, though the auditor should understand why it was previously missed",
+      "B": "The previous audit team must be sanctioned",
+      "C": "The finding must be dropped for consistency",
+      "D": "The finding applies only to future periods"
+    },
+    "answer": "A",
+    "explanation": "Consistency is not a criterion of legality or regularity; understanding the earlier miss may itself reveal a monitoring weakness."
+  },
+  {
+    "id": 649,
+    "question": "Where sampling results support one conclusion but a strong analytical procedure points the other way, the auditor should:",
+    "choices": {
+      "A": "Follow the sample, which is always superior",
+      "B": "Investigate and resolve the inconsistency before concluding, since contradictory evidence cannot simply be outweighed by preference",
+      "C": "Average the two conclusions",
+      "D": "Follow the analytic, which is always superior"
+    },
+    "answer": "B",
+    "explanation": "ISA 500 requires resolving inconsistencies in evidence; neither source automatically dominates."
+  },
+  {
+    "id": 650,
+    "question": "An engagement supervisor notes that a junior ticked 'agreed to supporting document' for items where the documents are absent from the file. Beyond the immediate rework, this is above all a matter of:",
+    "choices": {
+      "A": "The auditee's poor documentation",
+      "B": "Time budget management",
+      "C": "Formatting of working papers",
+      "D": "Integrity and quality control, requiring escalation, re-testing of the auditor's work and consideration of the reliability of everything else they touched"
+    },
+    "answer": "D",
+    "explanation": "False sign-offs contaminate the whole file's credibility; the response is disciplinary and systemic, not cosmetic."
+  },
+  {
+    "id": 901,
+    "question": "The role and responsibilities of the 'chief audit executive' are defined in:",
+    "choices": {
+      "A": "The Global Internal Audit Standards (IIA)",
+      "B": "ISSAI 140",
+      "C": "ISA 220",
+      "D": "The COSO Internal Control Framework"
+    },
+    "answer": "A",
+    "explanation": "The CAE is an IIA construct; the ISAs speak of the engagement partner and ISSAIs of the SAI and its head."
+  },
+  {
+    "id": 902,
+    "question": "'Topical Requirements' imposing mandatory requirements on engagements covering specific risk topics (e.g. cybersecurity) are issued under:",
+    "choices": {
+      "A": "The INTOSAI GUID series",
+      "B": "COBIT focus areas",
+      "C": "The ISSAI 2000-series practice notes",
+      "D": "The IIA's International Professional Practices Framework"
+    },
+    "answer": "D",
+    "explanation": "Topical Requirements are the mandatory topic layer of the IIA framework; GUIDs are non-mandatory and COBIT focus areas are design guidance."
+  },
+  {
+    "id": 903,
+    "question": "The requirement to maintain a quality assurance and improvement programme (QAIP) covering the whole function is found in:",
+    "choices": {
+      "A": "The Global Internal Audit Standards",
+      "B": "ISSAI 140",
+      "C": "ISQM 1",
+      "D": "ISA 220 (Revised)"
+    },
+    "answer": "A",
+    "explanation": "ISQM 1 governs firm-level quality management for audit firms; ISSAI 140 governs SAIs; the QAIP is the internal audit equivalent."
+  },
+  {
+    "id": 904,
+    "question": "Board approval of the internal audit charter is required by:",
+    "choices": {
+      "A": "The Global Internal Audit Standards",
+      "B": "COSO 2013",
+      "C": "ISO/IEC 27001",
+      "D": "ISA 260"
+    },
+    "answer": "A",
+    "explanation": "The charter, plan, budget and CAE appointment are board prerogatives under the IIA Standards."
+  },
+  {
+    "id": 905,
+    "question": "The distinction between attestation engagements and direct reporting engagements is established in:",
+    "choices": {
+      "A": "ISSAI 100",
+      "B": "ISA 200",
+      "C": "The Global Internal Audit Standards",
+      "D": "COSO ERM 2017"
+    },
+    "answer": "A",
+    "explanation": "ISSAI 100 defines the two engagement forms for public-sector audit."
+  },
+  {
+    "id": 906,
+    "question": "The definition of the three parties to a public-sector audit (auditor, responsible party, intended users) comes from:",
+    "choices": {
+      "A": "ISA 580",
+      "B": "ISSAI 100",
+      "C": "The Global Internal Audit Standards",
+      "D": "ISQM 1"
+    },
+    "answer": "B",
+    "explanation": "A core ISSAI 100 concept, often wrongly attributed to the ISAs."
+  },
+  {
+    "id": 907,
+    "question": "The eight principles of SAI independence are set out in:",
+    "choices": {
+      "A": "ISSAI 130",
+      "B": "INTOSAI-P 12",
+      "C": "The Lima Declaration (INTOSAI-P 1)",
+      "D": "The Mexico Declaration (INTOSAI-P 10)"
+    },
+    "answer": "D",
+    "explanation": "Lima founds the necessity of independence; Mexico enumerates the eight principles."
+  },
+  {
+    "id": 908,
+    "question": "The document known as the 'Magna Carta of government auditing' is:",
+    "choices": {
+      "A": "ISSAI 100",
+      "B": "The Mexico Declaration (INTOSAI-P 10)",
+      "C": "INTOSAI-P 20",
+      "D": "The Lima Declaration (INTOSAI-P 1)"
+    },
+    "answer": "D",
+    "explanation": "Lima (1977) is the founding charter; Mexico (2007) operationalises independence."
+  },
+  {
+    "id": 909,
+    "question": "The principle that SAIs should 'make a difference to the lives of citizens' structures:",
+    "choices": {
+      "A": "INTOSAI-P 10",
+      "B": "ISSAI 140",
+      "C": "INTOSAI-P 20",
+      "D": "INTOSAI-P 12 (Value and Benefits of SAIs)"
+    },
+    "answer": "D",
+    "explanation": "The 2013 pronouncement organises SAI value into three pillars."
+  },
+  {
+    "id": 910,
+    "question": "Principles of transparency and accountability for SAIs themselves are set out in:",
+    "choices": {
+      "A": "INTOSAI-P 20",
+      "B": "INTOSAI-P 12",
+      "C": "ISSAI 130",
+      "D": "GUID 3910"
+    },
+    "answer": "A",
+    "explanation": "P 20 addresses how SAIs account for their own operations."
+  },
+  {
+    "id": 911,
+    "question": "The pronouncements consisting of the ISAs supplemented with public-sector practice notes are:",
+    "choices": {
+      "A": "The ISSAI 2000-series",
+      "B": "The ISSAI 3000-series",
+      "C": "The GUID 5000-series",
+      "D": "The ISSAI 4000-series"
+    },
+    "answer": "A",
+    "explanation": "2000 = financial audit (ISA-based); 3000 = performance; 4000 = compliance."
+  },
+  {
+    "id": 912,
+    "question": "The requirements-level standard for performance auditing is:",
+    "choices": {
+      "A": "ISSAI 3000",
+      "B": "ISSAI 300",
+      "C": "GUID 3910",
+      "D": "ISSAI 400"
+    },
+    "answer": "A",
+    "explanation": "ISSAI 300 states principles; ISSAI 3000 states requirements; GUID 3910 is non-mandatory guidance - three different authority levels on the same topic."
+  },
+  {
+    "id": 913,
+    "question": "The classification of performance audits as result-, problem- or system-oriented appears in:",
+    "choices": {
+      "A": "ISSAI 4000",
+      "B": "ISA 315",
+      "C": "GUID 3910",
+      "D": "ISSAI 100"
+    },
+    "answer": "C",
+    "explanation": "GUID 3910 collects the central concepts for performance auditing."
+  },
+  {
+    "id": 914,
+    "question": "INTOSAI's guidance on the audit of information technology is:",
+    "choices": {
+      "A": "ISSAI 300",
+      "B": "COBIT 2019",
+      "C": "ISO/IEC 27002",
+      "D": "GUID 5100"
+    },
+    "answer": "D",
+    "explanation": "COBIT and ISO 27002 are governance and control frameworks, not INTOSAI audit guidance."
+  },
+  {
+    "id": 915,
+    "question": "The 'experienced auditor' test for the sufficiency of audit documentation is formulated in:",
+    "choices": {
+      "A": "ISSAI 140",
+      "B": "ISQM 1",
+      "C": "ISA 230",
+      "D": "GIAS Principle 14"
+    },
+    "answer": "C",
+    "explanation": "The formulation originates in ISA 230 and is echoed across frameworks."
+  },
+  {
+    "id": 916,
+    "question": "The presumption that management override of controls is a significant fraud risk in every audit comes from:",
+    "choices": {
+      "A": "COSO Principle 8",
+      "B": "ISA 315",
+      "C": "ISA 240",
+      "D": "ISA 330"
+    },
+    "answer": "C",
+    "explanation": "COSO Principle 8 requires assessing fraud risk in internal control; the audit presumption is ISA 240's."
+  },
+  {
+    "id": 917,
+    "question": "The concepts of 'inherent risk factors' and the 'spectrum of inherent risk' were introduced by:",
+    "choices": {
+      "A": "ISA 315 (Revised 2019)",
+      "B": "ISA 330",
+      "C": "ISA 200",
+      "D": "ISA 540"
+    },
+    "answer": "A",
+    "explanation": "The 2019 revision restructured risk identification and assessment."
+  },
+  {
+    "id": 918,
+    "question": "Performance materiality is defined in:",
+    "choices": {
+      "A": "ISA 300",
+      "B": "ISA 450",
+      "C": "ISA 320",
+      "D": "ISSAI 100"
+    },
+    "answer": "C",
+    "explanation": "ISA 450 evaluates misstatements; ISA 320 sets materiality concepts."
+  },
+  {
+    "id": 919,
+    "question": "The conditions under which a detected misstatement may be treated as an anomaly and excluded from projection are in:",
+    "choices": {
+      "A": "ISA 520",
+      "B": "ISA 530",
+      "C": "ISA 500",
+      "D": "ISA 450"
+    },
+    "answer": "B",
+    "explanation": "Sampling and projection discipline belong to ISA 530."
+  },
+  {
+    "id": 920,
+    "question": "Key Audit Matters are governed by:",
+    "choices": {
+      "A": "ISA 700",
+      "B": "ISA 705",
+      "C": "ISA 701",
+      "D": "ISA 706"
+    },
+    "answer": "C",
+    "explanation": "700 = forming the opinion; 705 = modifications; 706 = Emphasis/Other Matter; 701 = KAM."
+  },
+  {
+    "id": 921,
+    "question": "Emphasis of Matter and Other Matter paragraphs are governed by:",
+    "choices": {
+      "A": "ISA 705",
+      "B": "ISA 260",
+      "C": "ISA 701",
+      "D": "ISA 706"
+    },
+    "answer": "D",
+    "explanation": "They draw attention without modifying the opinion; modifications are ISA 705."
+  },
+  {
+    "id": 922,
+    "question": "The framework structured as five components and seventeen principles is:",
+    "choices": {
+      "A": "The Global Internal Audit Standards",
+      "B": "COSO ERM 2017",
+      "C": "COSO Internal Control - Integrated Framework (2013)",
+      "D": "COBIT 2019"
+    },
+    "answer": "C",
+    "explanation": "ERM 2017 has five components and twenty principles; GIAS has five domains and fifteen principles - three deliberately confusable structures."
+  },
+  {
+    "id": 923,
+    "question": "The framework structured as five components and twenty principles is:",
+    "choices": {
+      "A": "ISO 31000",
+      "B": "COSO ERM 2017",
+      "C": "COBIT 2019",
+      "D": "COSO IC-IF 2013"
+    },
+    "answer": "B",
+    "explanation": "The twin numbering with IC-IF (17) is the classic distractor pair."
+  },
+  {
+    "id": 924,
+    "question": "'Design factors' used to tailor a governance system to the enterprise are a concept of:",
+    "choices": {
+      "A": "TOGAF",
+      "B": "ITIL 4",
+      "C": "COBIT 2019",
+      "D": "COSO ERM 2017"
+    },
+    "answer": "C",
+    "explanation": "Eleven design factors are specific to COBIT 2019."
+  },
+  {
+    "id": 925,
+    "question": "The domain structure EDM / APO / BAI / DSS / MEA belongs to:",
+    "choices": {
+      "A": "ISO/IEC 27001",
+      "B": "The NIST Cybersecurity Framework",
+      "C": "ITIL 4",
+      "D": "COBIT 2019"
+    },
+    "answer": "D",
+    "explanation": "EDM is governance; the four others are management domains."
+  },
+  {
+    "id": 926,
+    "question": "The function set Govern, Identify, Protect, Detect, Respond, Recover belongs to:",
+    "choices": {
+      "A": "ITIL 4",
+      "B": "ISO/IEC 27001",
+      "C": "COBIT 2019",
+      "D": "The NIST Cybersecurity Framework 2.0"
+    },
+    "answer": "D",
+    "explanation": "'Govern' was added in the 2024 version 2.0."
+  },
+  {
+    "id": 927,
+    "question": "The certifiable standard specifying requirements for an information security management system is:",
+    "choices": {
+      "A": "The NIST Cybersecurity Framework",
+      "B": "ISO/IEC 27001",
+      "C": "ISO/IEC 27002",
+      "D": "ISO 31000"
+    },
+    "answer": "B",
+    "explanation": "27002 is control guidance; 31000 and NIST CSF are not certifiable."
+  },
+  {
+    "id": 928,
+    "question": "The non-certifiable principles-and-guidelines standard for managing risk of any kind is:",
+    "choices": {
+      "A": "ISO 31000",
+      "B": "ISO/IEC 27001",
+      "C": "DORA",
+      "D": "COSO ERM 2017"
+    },
+    "answer": "A",
+    "explanation": "COSO ERM is a framework, not an ISO standard; DORA is EU legislation."
+  },
+  {
+    "id": 929,
+    "question": "A firm-level system built on quality objectives, quality risks and responses is required by:",
+    "choices": {
+      "A": "ISQM 1",
+      "B": "ISQM 2",
+      "C": "ISSAI 140",
+      "D": "ISA 220"
+    },
+    "answer": "A",
+    "explanation": "ISQM 1 replaced ISQC 1 with a risk-based quality management approach."
+  },
+  {
+    "id": 930,
+    "question": "The standard dealing specifically with engagement quality reviews is:",
+    "choices": {
+      "A": "ISA 230",
+      "B": "ISQM 1",
+      "C": "GIAS Principle 12",
+      "D": "ISQM 2"
+    },
+    "answer": "D",
+    "explanation": "ISQM 2 governs the eligibility of reviewers and the performance of the review."
+  },
+  {
+    "id": 931,
+    "question": "Quality control requirements adapted to supreme audit institutions are set out in:",
+    "choices": {
+      "A": "The Global Internal Audit Standards",
+      "B": "ISSAI 130",
+      "C": "ISSAI 140",
+      "D": "ISQM 1"
+    },
+    "answer": "C",
+    "explanation": "ISSAI 140 transposes the quality-control logic to the SAI context."
+  },
+  {
+    "id": 932,
+    "question": "The code of ethics for public-sector auditors within the IFPP is:",
+    "choices": {
+      "A": "ISSAI 130",
+      "B": "The IESBA Code",
+      "C": "ISSAI 140",
+      "D": "GIAS Domain II"
+    },
+    "answer": "A",
+    "explanation": "The IESBA Code governs professional accountants; GIAS Domain II governs IIA internal auditors."
+  },
+  {
+    "id": 933,
+    "question": "An external quality assessment of an internal audit function is required at least every:",
+    "choices": {
+      "A": "seven years",
+      "B": "ten years",
+      "C": "three years",
+      "D": "five years"
+    },
+    "answer": "D",
+    "explanation": "GIAS Principle 12; by a qualified independent assessor from outside the organisation."
+  },
+  {
+    "id": 934,
+    "question": "The cooling-off period before an internal auditor may audit an area they were previously responsible for is:",
+    "choices": {
+      "A": "six months",
+      "B": "one year",
+      "C": "three years",
+      "D": "two years"
+    },
+    "answer": "B",
+    "explanation": "It also applies after advisory engagements in the area."
+  },
+  {
+    "id": 935,
+    "question": "Under ISA 230, the final audit file should ordinarily be assembled within:",
+    "choices": {
+      "A": "30 days of the auditor's report",
+      "B": "90 days of the auditor's report",
+      "C": "60 days of the auditor's report",
+      "D": "60 days of the year end"
+    },
+    "answer": "C",
+    "explanation": "The clock runs from the report date, not the year end - the fourth option is the trap."
+  },
+  {
+    "id": 936,
+    "question": "The minimum retention period for audit documentation under the quality management standards is:",
+    "choices": {
+      "A": "ten years",
+      "B": "three years",
+      "C": "two years",
+      "D": "five years from the auditor's report"
+    },
+    "answer": "D",
+    "explanation": "Longer periods may apply under national law or contract."
+  },
+  {
+    "id": 937,
+    "question": "The Treaty deadline for the European Parliament's discharge decision is:",
+    "choices": {
+      "A": "15 May of year n+2",
+      "B": "15 May of year n+1",
+      "C": "30 June of year n+2",
+      "D": "31 December of year n+1"
+    },
+    "answer": "A",
+    "explanation": "Article 319 TFEU read with the Financial Regulation timetable."
+  },
+  {
+    "id": 938,
+    "question": "The standard deadline for the Member State's annual assurance package in cohesion policy is:",
+    "choices": {
+      "A": "15 February",
+      "B": "31 January",
+      "C": "1 March",
+      "D": "30 June"
+    },
+    "answer": "A",
+    "explanation": "1 March is the possible extension granted by the Commission, not the standard deadline - a designed near-miss."
+  },
+  {
+    "id": 939,
+    "question": "The final consolidated annual accounts of the Union must be transmitted by:",
+    "choices": {
+      "A": "30 September of the following year",
+      "B": "31 July of the following year",
+      "C": "31 March of the following year",
+      "D": "15 May of year n+2"
+    },
+    "answer": "B",
+    "explanation": "31 March concerns provisional consolidated accounts; 15 May n+2 is the discharge."
+  },
+  {
+    "id": 940,
+    "question": "The materiality threshold applied by the ECA for the Statement of Assurance is:",
+    "choices": {
+      "A": "1 %",
+      "B": "2 %",
+      "C": "3 %",
+      "D": "5 %"
+    },
+    "answer": "B",
+    "explanation": "The same 2 % figure caps the residual error rate in cohesion for an unqualified opinion."
+  },
+  {
+    "id": 941,
+    "question": "The ECA's estimated level of error for 2024 was:",
+    "choices": {
+      "A": "4.2 %",
+      "B": "3.6 %",
+      "C": "2.6 %",
+      "D": "5.6 %"
+    },
+    "answer": "B",
+    "explanation": "4.2 % was 2022 and 5.6 % was 2023 - neighbouring years are the distractors."
+  },
+  {
+    "id": 942,
+    "question": "The ECA's estimated level of error for 2023 was:",
+    "choices": {
+      "A": "3.0 %",
+      "B": "5.6 %",
+      "C": "3.6 %",
+      "D": "4.2 %"
+    },
+    "answer": "B",
+    "explanation": "The 2023 peak preceded the fall to 3.6 % in 2024."
+  },
+  {
+    "id": 943,
+    "question": "The EPPO is competent for cross-border VAT fraud where total damage is at least:",
+    "choices": {
+      "A": "EUR 25 million",
+      "B": "EUR 10 million",
+      "C": "EUR 100 000",
+      "D": "EUR 1 million"
+    },
+    "answer": "B",
+    "explanation": "Article 22 of the EPPO Regulation."
+  },
+  {
+    "id": 944,
+    "question": "As a general rule the EPPO leaves to national authorities cases where damage to the EU's financial interests is below:",
+    "choices": {
+      "A": "EUR 50 000",
+      "B": "EUR 1 000",
+      "C": "EUR 100 000",
+      "D": "EUR 10 000"
+    },
+    "answer": "D",
+    "explanation": "Subject to the conditions in the Regulation on standing and Union-level interest."
+  },
+  {
+    "id": 945,
+    "question": "The EPPO began operations on:",
+    "choices": {
+      "A": "1 June 2017",
+      "B": "1 January 2021",
+      "C": "1 June 2021",
+      "D": "1 January 2020"
+    },
+    "answer": "C",
+    "explanation": "2017 is the year of the founding Regulation, not of operations - the classic confusion."
+  },
+  {
+    "id": 946,
+    "question": "The European Chief Prosecutor is appointed for:",
+    "choices": {
+      "A": "a non-renewable term of seven years",
+      "B": "a non-renewable term of six years",
+      "C": "a renewable term of five years",
+      "D": "a renewable term of seven years"
+    },
+    "answer": "A",
+    "explanation": "Non-renewability protects independence; the renewable variants are the traps."
+  },
+  {
+    "id": 947,
+    "question": "The Director-General of OLAF is appointed for:",
+    "choices": {
+      "A": "a non-renewable term of five years",
+      "B": "a non-renewable term of seven years",
+      "C": "a renewable term of seven years",
+      "D": "a renewable term of five years"
+    },
+    "answer": "B",
+    "explanation": "Same protective logic as for the European Chief Prosecutor."
+  },
+  {
+    "id": 948,
+    "question": "The European Court of Auditors is composed of:",
+    "choices": {
+      "A": "27 members, one per Member State",
+      "B": "28 members including a President appointed by the Council",
+      "C": "one member per chamber",
+      "D": "15 members appointed by rotation"
+    },
+    "answer": "A",
+    "explanation": "One national of each Member State; the President is elected from among the members."
+  },
+  {
+    "id": 949,
+    "question": "ECA members serve for:",
+    "choices": {
+      "A": "nine years, non-renewable",
+      "B": "six years, renewable",
+      "C": "six years, non-renewable",
+      "D": "five years, renewable"
+    },
+    "answer": "B",
+    "explanation": "The non-renewable six-year variant is the aggressive near-miss."
+  },
+  {
+    "id": 950,
+    "question": "The President of the ECA is elected for:",
+    "choices": {
+      "A": "three years, renewable",
+      "B": "six years",
+      "C": "two years",
+      "D": "five years"
+    },
+    "answer": "A",
+    "explanation": "Elected by the members from among themselves."
+  },
+  {
+    "id": 951,
+    "question": "The Global Internal Audit Standards contain:",
+    "choices": {
+      "A": "17 principles",
+      "B": "20 principles",
+      "C": "10 principles",
+      "D": "15 principles"
+    },
+    "answer": "D",
+    "explanation": "17 belongs to COSO IC-IF and 20 to COSO ERM - the numbers are designed to collide."
+  },
+  {
+    "id": 952,
+    "question": "The Global Internal Audit Standards contain:",
+    "choices": {
+      "A": "52 standards across 5 domains",
+      "B": "42 standards across 4 domains",
+      "C": "56 standards across 5 domains",
+      "D": "52 standards across 15 domains"
+    },
+    "answer": "A",
+    "explanation": "5 domains, 15 principles, 52 standards."
+  },
+  {
+    "id": 953,
+    "question": "The Global Internal Audit Standards became effective on:",
+    "choices": {
+      "A": "1 January 2026",
+      "B": "1 January 2024",
+      "C": "9 January 2024",
+      "D": "9 January 2025"
+    },
+    "answer": "D",
+    "explanation": "Published 9 January 2024, effective one year later."
+  },
+  {
+    "id": 954,
+    "question": "COSO IC-IF 2013 comprises:",
+    "choices": {
+      "A": "5 components and 17 principles",
+      "B": "3 components and 17 principles",
+      "C": "5 components and 20 principles",
+      "D": "8 components and 17 principles"
+    },
+    "answer": "A",
+    "explanation": "20 principles is ERM; 8 components is the old 2004 ERM cube."
+  },
+  {
+    "id": 955,
+    "question": "COSO ERM 2017 comprises:",
+    "choices": {
+      "A": "5 components and 20 principles",
+      "B": "5 components and 17 principles",
+      "C": "8 components and 20 principles",
+      "D": "4 components and 23 principles"
+    },
+    "answer": "A",
+    "explanation": "The mirrored numbering with IC-IF is the point of the question."
+  },
+  {
+    "id": 956,
+    "question": "The COBIT 2019 core model contains:",
+    "choices": {
+      "A": "45 objectives",
+      "B": "37 objectives",
+      "C": "34 objectives",
+      "D": "40 governance and management objectives"
+    },
+    "answer": "D",
+    "explanation": "34 processes belonged to COBIT 4.1 - the outdated-knowledge trap."
+  },
+  {
+    "id": 957,
+    "question": "The EDM domain of COBIT 2019 contains:",
+    "choices": {
+      "A": "4 objectives",
+      "B": "5 objectives",
+      "C": "6 objectives",
+      "D": "14 objectives"
+    },
+    "answer": "B",
+    "explanation": "EDM 5, APO 14, BAI 11, DSS 6, MEA 4."
+  },
+  {
+    "id": 958,
+    "question": "The APO domain of COBIT 2019 contains:",
+    "choices": {
+      "A": "10 objectives",
+      "B": "14 objectives",
+      "C": "13 objectives",
+      "D": "11 objectives"
+    },
+    "answer": "B",
+    "explanation": "11 is BAI; the counts are frequently swapped."
+  },
+  {
+    "id": 959,
+    "question": "COBIT 2019 defines how many design factors?",
+    "choices": {
+      "A": "9",
+      "B": "13",
+      "C": "11",
+      "D": "7"
+    },
+    "answer": "C",
+    "explanation": "7 is the number of governance-system components, the natural confusion."
+  },
+  {
+    "id": 960,
+    "question": "A COBIT 2019 governance system has how many components?",
+    "choices": {
+      "A": "7",
+      "B": "5",
+      "C": "11",
+      "D": "6"
+    },
+    "answer": "A",
+    "explanation": "11 is the number of design factors; 5 the number of domains."
+  },
+  {
+    "id": 961,
+    "question": "The Mexico Declaration sets out how many principles of SAI independence?",
+    "choices": {
+      "A": "8",
+      "B": "6",
+      "C": "12",
+      "D": "10"
+    },
+    "answer": "A",
+    "explanation": "Security of tenure, broad mandate, access to information, freedom to report and publish, follow-up, autonomy, among them."
+  },
+  {
+    "id": 962,
+    "question": "The share of the EU budget implemented under shared management is approximately:",
+    "choices": {
+      "A": "50 %",
+      "B": "60 %",
+      "C": "85 %",
+      "D": "70 %"
+    },
+    "answer": "D",
+    "explanation": "Mainly the CAP and cohesion policy."
+  },
+  {
+    "id": 963,
+    "question": "Member States retain as collection costs what percentage of traditional own resources?",
+    "choices": {
+      "A": "10 %",
+      "B": "25 %",
+      "C": "20 %",
+      "D": "50 %"
+    },
+    "answer": "B",
+    "explanation": "20 % was the previous rate - outdated knowledge is the trap."
+  },
+  {
+    "id": 964,
+    "question": "Under the de minimis Regulation applicable since 2024, the ceiling per undertaking over three years is:",
+    "choices": {
+      "A": "EUR 200 000",
+      "B": "EUR 300 000",
+      "C": "EUR 500 000",
+      "D": "EUR 100 000"
+    },
+    "answer": "B",
+    "explanation": "EUR 200 000 was the previous ceiling."
+  },
+  {
+    "id": 965,
+    "question": "A personal data breach must generally be notified to the supervisory authority within:",
+    "choices": {
+      "A": "48 hours",
+      "B": "one week",
+      "C": "24 hours",
+      "D": "72 hours"
+    },
+    "answer": "D",
+    "explanation": "Article 33 GDPR; 24 hours is the NIS2 early-warning deadline - the frameworks are designed to be confused."
+  },
+  {
+    "id": 966,
+    "question": "Under NIS2, the early warning of a significant incident is due within:",
+    "choices": {
+      "A": "72 hours",
+      "B": "12 hours",
+      "C": "48 hours",
+      "D": "24 hours"
+    },
+    "answer": "D",
+    "explanation": "72 hours is the incident notification stage; one month the final report."
+  },
+  {
+    "id": 967,
+    "question": "DORA applies from:",
+    "choices": {
+      "A": "1 January 2024",
+      "B": "1 January 2026",
+      "C": "17 October 2024",
+      "D": "17 January 2025"
+    },
+    "answer": "D",
+    "explanation": "17 October 2024 is the NIS2 transposition deadline - a deliberate cross-instrument trap."
+  },
+  {
+    "id": 968,
+    "question": "The general limitation period for proceedings concerning irregularities under Regulation 2988/95 is:",
+    "choices": {
+      "A": "four years from the irregularity",
+      "B": "three years",
+      "C": "ten years",
+      "D": "five years"
+    },
+    "answer": "A",
+    "explanation": "Sectoral rules may set shorter periods, not below three years; longer national periods can apply."
+  },
+  {
+    "id": 969,
+    "question": "The Statement of Assurance (DAS) is issued by:",
+    "choices": {
+      "A": "the Commission in the AMPR",
+      "B": "the Internal Audit Service",
+      "C": "the European Court of Auditors",
+      "D": "the Member States' audit authorities"
+    },
+    "answer": "C",
+    "explanation": "The AMPR is the Commission's own accountability report; audit authorities opine on their programmes only."
+  },
+  {
+    "id": 970,
+    "question": "Discharge for the implementation of the budget is granted by:",
+    "choices": {
+      "A": "the Council",
+      "B": "the European Court of Auditors",
+      "C": "the Commission",
+      "D": "the European Parliament"
+    },
+    "answer": "D",
+    "explanation": "On a recommendation from the Council - the Council recommends, Parliament decides."
+  },
+  {
+    "id": 971,
+    "question": "The discharge recommendation is issued by:",
+    "choices": {
+      "A": "the CONT committee",
+      "B": "the European Council",
+      "C": "the European Court of Auditors",
+      "D": "the Council"
+    },
+    "answer": "D",
+    "explanation": "CONT prepares Parliament's decision; the ECA provides the audit evidence."
+  },
+  {
+    "id": 972,
+    "question": "Within the European Parliament, the discharge is prepared by:",
+    "choices": {
+      "A": "the JURI committee",
+      "B": "the Committee on Budgets (BUDG)",
+      "C": "the ECON committee",
+      "D": "the Committee on Budgetary Control (CONT)"
+    },
+    "answer": "D",
+    "explanation": "BUDG deals with establishing the budget; CONT with controlling its implementation."
+  },
+  {
+    "id": 973,
+    "question": "The annual overall opinion on the financial management of the Commission is issued by:",
+    "choices": {
+      "A": "the accounting officer",
+      "B": "the Internal Auditor of the Commission (IAS)",
+      "C": "the European Court of Auditors",
+      "D": "the Audit Progress Committee"
+    },
+    "answer": "B",
+    "explanation": "The ECA's equivalent instrument is the DAS; the APC oversees the IAS but issues no opinion."
+  },
+  {
+    "id": 974,
+    "question": "The Annual Management and Performance Report is adopted by:",
+    "choices": {
+      "A": "the European Parliament",
+      "B": "DG Budget",
+      "C": "the College of Commissioners",
+      "D": "the Commission's accounting officer"
+    },
+    "answer": "C",
+    "explanation": "It is the College's accountability statement to the discharge authority."
+  },
+  {
+    "id": 975,
+    "question": "The declaration of assurance in an Annual Activity Report is signed by:",
+    "choices": {
+      "A": "the accounting officer",
+      "B": "the responsible Commissioner",
+      "C": "the Director-General as authorising officer by delegation",
+      "D": "the Internal Auditor"
+    },
+    "answer": "C",
+    "explanation": "Commissioners bear political responsibility; the AAR declaration is the AOD's."
+  },
+  {
+    "id": 976,
+    "question": "Keeping the accounts, managing treasury and validating accounting systems is the task of:",
+    "choices": {
+      "A": "the authorising officer",
+      "B": "the European Court of Auditors",
+      "C": "the imprest administrator",
+      "D": "the accounting officer"
+    },
+    "answer": "D",
+    "explanation": "Functional separation from the authorising officer is a hard rule."
+  },
+  {
+    "id": 977,
+    "question": "In cohesion policy, the annual control report and audit opinion are drawn up by:",
+    "choices": {
+      "A": "the accounting function",
+      "B": "the managing authority",
+      "C": "the audit authority",
+      "D": "the certification body"
+    },
+    "answer": "C",
+    "explanation": "The certification body belongs to the CAP architecture, not cohesion - a designed cross-fund trap."
+  },
+  {
+    "id": 978,
+    "question": "In cohesion policy, the management declaration is drawn up by:",
+    "choices": {
+      "A": "the managing authority",
+      "B": "the audit authority",
+      "C": "the Commission",
+      "D": "the paying agency"
+    },
+    "answer": "A",
+    "explanation": "Paying agencies belong to the CAP; the audit authority opines independently."
+  },
+  {
+    "id": 979,
+    "question": "In cohesion policy, operations are selected by:",
+    "choices": {
+      "A": "the Commission",
+      "B": "the monitoring committee",
+      "C": "the managing authority",
+      "D": "the accounting function"
+    },
+    "answer": "C",
+    "explanation": "The monitoring committee approves the selection methodology and criteria; the managing authority applies them - a fine but testable line."
+  },
+  {
+    "id": 980,
+    "question": "Common agricultural policy aid is paid to farmers by:",
+    "choices": {
+      "A": "managing authorities",
+      "B": "certification bodies",
+      "C": "the coordinating body",
+      "D": "accredited paying agencies"
+    },
+    "answer": "D",
+    "explanation": "Managing/audit authorities are cohesion bodies; the coordinating body consolidates but does not pay."
+  },
+  {
+    "id": 981,
+    "question": "The opinion on the CAP accounts, governance systems and reported performance is given by:",
+    "choices": {
+      "A": "the paying agency itself",
+      "B": "the audit authority",
+      "C": "the European Court of Auditors",
+      "D": "the certification body"
+    },
+    "answer": "D",
+    "explanation": "An independent certification body per paying agency - the CAP counterpart of the audit authority."
+  },
+  {
+    "id": 982,
+    "question": "Paying agencies are accredited by:",
+    "choices": {
+      "A": "the certification body",
+      "B": "the competent authority of the Member State",
+      "C": "the European Court of Auditors",
+      "D": "the European Commission"
+    },
+    "answer": "B",
+    "explanation": "Accreditation is national against Union criteria; the Commission supervises through clearance."
+  },
+  {
+    "id": 983,
+    "question": "Administrative investigations into fraud affecting the EU budget, inside and outside the institutions, are conducted by:",
+    "choices": {
+      "A": "the EPPO",
+      "B": "the European Ombudsman",
+      "C": "the European Court of Auditors",
+      "D": "OLAF"
+    },
+    "answer": "D",
+    "explanation": "The EPPO conducts criminal investigations; the ECA audits; the Ombudsman handles maladministration."
+  },
+  {
+    "id": 984,
+    "question": "Criminal prosecution of offences against the EU's financial interests before national courts is brought by:",
+    "choices": {
+      "A": "the Court of Justice of the EU",
+      "B": "Europol",
+      "C": "OLAF",
+      "D": "the EPPO"
+    },
+    "answer": "D",
+    "explanation": "OLAF cannot prosecute; the CJEU adjudicates but does not prosecute; Europol supports police cooperation."
+  },
+  {
+    "id": 985,
+    "question": "Within the EPPO, decisions to prosecute, dismiss or refer a case are taken by:",
+    "choices": {
+      "A": "the European Chief Prosecutor alone",
+      "B": "the European Delegated Prosecutor alone",
+      "C": "the College",
+      "D": "the Permanent Chambers"
+    },
+    "answer": "D",
+    "explanation": "The College handles general matters and policy, not individual case decisions."
+  },
+  {
+    "id": 986,
+    "question": "Day-to-day EPPO investigations in the Member States are conducted by:",
+    "choices": {
+      "A": "the European Delegated Prosecutors, applying national procedural law",
+      "B": "national AFCOS offices",
+      "C": "the European Prosecutors in Luxembourg",
+      "D": "OLAF on the EPPO's behalf"
+    },
+    "answer": "A",
+    "explanation": "European Prosecutors supervise from the centre; EDPs act on the ground."
+  },
+  {
+    "id": 987,
+    "question": "The independence of OLAF's investigative function is monitored by:",
+    "choices": {
+      "A": "the European Parliament's CONT committee",
+      "B": "the Court of Justice",
+      "C": "its Supervisory Committee",
+      "D": "the Audit Progress Committee"
+    },
+    "answer": "C",
+    "explanation": "The APC oversees the IAS - swapping the two committees is the designed trap."
+  },
+  {
+    "id": 988,
+    "question": "The audit-committee role for the Commission, overseeing the IAS, is played by:",
+    "choices": {
+      "A": "the Audit Progress Committee",
+      "B": "the CONT committee",
+      "C": "the Supervisory Committee",
+      "D": "the Board of Governors"
+    },
+    "answer": "A",
+    "explanation": "The Supervisory Committee belongs to OLAF."
+  },
+  {
+    "id": 989,
+    "question": "In the EDES framework, recommendations on exclusion in referred cases are issued by:",
+    "choices": {
+      "A": "the EPPO",
+      "B": "OLAF",
+      "C": "the Court of Justice",
+      "D": "the EDES panel"
+    },
+    "answer": "D",
+    "explanation": "OLAF findings may feed the case, but the panel recommends."
+  },
+  {
+    "id": 990,
+    "question": "The decision to exclude an economic operator under EDES is taken by:",
+    "choices": {
+      "A": "the EDES panel",
+      "B": "the College of Commissioners",
+      "C": "the European Court of Auditors",
+      "D": "the responsible authorising officer"
+    },
+    "answer": "D",
+    "explanation": "The panel recommends; the authorising officer decides - the inversion is the trap."
+  },
+  {
+    "id": 991,
+    "question": "Measures under the rule-of-law conditionality Regulation are adopted by:",
+    "choices": {
+      "A": "the European Parliament",
+      "B": "the Court of Justice",
+      "C": "the Council, by implementing decision on a Commission proposal",
+      "D": "the Commission alone"
+    },
+    "answer": "C",
+    "explanation": "The Commission proposes and the Council decides; the CJEU reviews legality if challenged."
+  },
+  {
+    "id": 992,
+    "question": "The multiannual financial framework requires the consent of:",
+    "choices": {
+      "A": "the European Central Bank",
+      "B": "the European Parliament",
+      "C": "the national parliaments",
+      "D": "the European Court of Auditors"
+    },
+    "answer": "B",
+    "explanation": "Council unanimity plus EP consent; national parliaments ratify own resources, not the MFF."
+  },
+  {
+    "id": 993,
+    "question": "The MFF Regulation is adopted by:",
+    "choices": {
+      "A": "the Parliament and the Council under the ordinary legislative procedure",
+      "B": "the Commission",
+      "C": "the European Council",
+      "D": "the Council acting unanimously"
+    },
+    "answer": "D",
+    "explanation": "The European Council sets political orientations but adopts no MFF act."
+  },
+  {
+    "id": 994,
+    "question": "Members of the European Court of Auditors are appointed by:",
+    "choices": {
+      "A": "the European Parliament, after consulting the Council",
+      "B": "the European Council",
+      "C": "the Member States without any EU procedure",
+      "D": "the Council, after consulting the European Parliament"
+    },
+    "answer": "D",
+    "explanation": "Parliament's vote is consultative; the Council may appoint against it."
+  },
+  {
+    "id": 995,
+    "question": "The Director-General of OLAF is appointed by:",
+    "choices": {
+      "A": "the European Commission",
+      "B": "the Supervisory Committee",
+      "C": "the Council",
+      "D": "the European Parliament"
+    },
+    "answer": "A",
+    "explanation": "Appointment follows consultation with the Supervisory Committee, which does not itself appoint."
+  },
+  {
+    "id": 996,
+    "question": "The 'risk at payment' figure for EU spending is estimated by:",
+    "choices": {
+      "A": "the European Court of Auditors",
+      "B": "OLAF",
+      "C": "the European Commission",
+      "D": "the audit authorities collectively"
+    },
+    "answer": "C",
+    "explanation": "The ECA's independent figure is the estimated level of error - the two are not interchangeable."
+  },
+  {
+    "id": 997,
+    "question": "The independent estimated level of error in EU spending is produced by:",
+    "choices": {
+      "A": "the Irregularity Management System",
+      "B": "the certification bodies",
+      "C": "the European Commission",
+      "D": "the European Court of Auditors"
+    },
+    "answer": "D",
+    "explanation": "IMS aggregates reported irregularities, which is not a statistical error estimate."
+  },
+  {
+    "id": 998,
+    "question": "Irregularities and suspected fraud in shared management are reported through the IMS by:",
+    "choices": {
+      "A": "the Member States",
+      "B": "OLAF",
+      "C": "the European Court of Auditors",
+      "D": "the beneficiaries directly"
+    },
+    "answer": "A",
+    "explanation": "The data feed the annual PIF report."
+  },
+  {
+    "id": 999,
+    "question": "On-the-spot checks and inspections at economic operators under Regulation 2185/96 are carried out by:",
+    "choices": {
+      "A": "the European Court of Auditors",
+      "B": "OLAF",
+      "C": "the European Commission's spending DGs",
+      "D": "the EPPO"
+    },
+    "answer": "B",
+    "explanation": "A distinct legal basis for OLAF's external investigations, in cooperation with national authorities."
+  },
+  {
+    "id": 1000,
+    "question": "Decisions imposing pecuniary obligations on persons other than States, enforceable under Article 299 TFEU, are adopted by:",
+    "choices": {
+      "A": "the Court of Justice only",
+      "B": "the Commission (and other institutions where provided)",
+      "C": "the European Court of Auditors",
+      "D": "the Council only"
+    },
+    "answer": "B",
+    "explanation": "The ECA has no enforcement powers; courts review rather than create the enforceable title."
+  }
+]
