@@ -3,15 +3,17 @@ import {
   Brain,
   ChevronDown,
   Library,
+  Minus,
   Play,
+  Plus,
   RotateCcw,
   Shuffle,
   Timer,
   type LucideIcon,
 } from 'lucide-react';
-import { useMemo, useState, type ReactNode } from 'react';
+import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Link, useNavigate } from 'react-router';
-import { Badge, Button, Card, Chip, LegendItem, NumberInput, SegmentBar, buttonClass, cx } from '../components/ui';
+import { Badge, Button, Card, Chip, IconButton, LegendItem, NumberInput, SegmentBar, buttonClass, cx } from '../components/ui';
 import { useToast } from '../components/toast';
 import { useStarter } from '../components/useStarter';
 import { formatTime, plural } from '../lib/format';
@@ -23,7 +25,7 @@ import { updateSettings, useSettings } from '../lib/settings';
 import { bookmarkedOf, mistakesOf, summarize } from '../lib/summary';
 import { MODE_LABELS } from '../lib/types';
 
-const SIZES = [10, 20, 50];
+const PRESETS = [10, 20, 30, 50];
 
 export default function Home() {
   const { banks, bankTitle } = useQuestions();
@@ -33,14 +35,12 @@ export default function Home() {
   const { start, modal } = useStarter();
 
   const bank = banks.find(b => b.id === settings.bank) ?? banks[0];
-  const count = settings.sessionSize;
 
   const [from, setFrom] = useState<number | null>(null);
   const [to, setTo] = useState<number | null>(null);
   const [randomize, setRandomize] = useState(true);
   const [showOptions, setShowOptions] = useState(false);
   const [examMinutes, setExamMinutes] = useState<number | null>(null);
-  const minutes = examMinutes ?? count;
 
   const summaries = useMemo(() => new Map(banks.map(b => [b.id, summarize(b.questions, progress)])), [banks, progress]);
   const mistakes = useMemo(() => (bank ? mistakesOf(bank.questions, progress) : []), [bank, progress]);
@@ -48,6 +48,9 @@ export default function Home() {
 
   if (!bank) return <p className="text-muted">No question sets found.</p>;
   const title = bank.title;
+  // The saved size is shared by all sets; a smaller set simply uses all its questions.
+  const count = Math.min(settings.sessionSize, bank.questions.length);
+  const minutes = examMinutes ?? count;
 
   const startClassic = () => {
     try {
@@ -92,32 +95,15 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-muted">Practice {title}</h2>
-          <div className="flex items-center gap-2">
-            <span className="text-sm text-muted">Questions:</span>
-            {SIZES.map(n => (
-              <Chip key={n} active={count === n} onClick={() => updateSettings({ sessionSize: n })}>
-                {n}
-              </Chip>
-            ))}
-            <NumberInput
-              label="Custom number of questions"
-              value={SIZES.includes(count) ? null : count}
-              placeholder="Other"
-              max={bank.questions.length}
-              onChange={v => v && v > 0 && updateSettings({ sessionSize: v })}
-              className="w-[4.5rem]"
-            />
-          </div>
-        </div>
+        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted">Practice {title}</h2>
+        <SessionSizePicker value={count} max={bank.questions.length} onChange={n => updateSettings({ sessionSize: n })} />
 
         <div className="grid gap-3 sm:grid-cols-2">
           <ModeCard
             icon={Shuffle}
             title="Classic"
             text="Random questions from the set, with instant feedback. Optionally limit to a range or keep file order."
-            action={<Button onClick={startClassic}><Play className="size-4" />Start</Button>}
+            action={<Button onClick={startClassic}><Play className="size-4" />Start {count} questions</Button>}
           >
             <button
               type="button"
@@ -150,7 +136,7 @@ export default function Home() {
             text="Questions you haven't seen come first, then the ones you miss most often."
             action={
               <Button onClick={() => start({ mode: 'learning', title, questions: pickLearning(bank.questions, count, progress.stats) })}>
-                <Play className="size-4" />Start
+                <Play className="size-4" />Start {count} questions
               </Button>
             }
           />
@@ -170,7 +156,7 @@ export default function Home() {
                   })
                 }
               >
-                <Play className="size-4" />Start exam
+                <Play className="size-4" />Start {count}-question exam
               </Button>
             }
           >
@@ -231,6 +217,59 @@ export default function Home() {
       </section>
       {modal}
     </div>
+  );
+}
+
+/** How many questions a session has: − / + buttons, a free number field and quick presets. */
+function SessionSizePicker({ value, max, onChange }: { value: number; max: number; onChange: (n: number) => void }) {
+  // The field keeps its own text while typing, so "1" on the way to "15" doesn't jump around.
+  const [text, setText] = useState(String(value));
+  useEffect(() => {
+    setText(String(value));
+  }, [value]);
+  const set = (n: number) => onChange(Math.min(Math.max(1, n), max));
+
+  return (
+    <Card className="mb-3 flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <p className="font-semibold">Questions per session</p>
+        <p className="text-sm text-muted">Used by every mode below. You can pick 1 to {max.toLocaleString('en-US')}.</p>
+      </div>
+      <div className="flex flex-wrap items-center gap-2">
+        <div className="inline-flex items-center rounded-xl border border-line bg-surface-2">
+          <IconButton label="Fewer questions" onClick={() => set(value - 1)} disabled={value <= 1}>
+            <Minus className="size-4" />
+          </IconButton>
+          <input
+            type="number"
+            inputMode="numeric"
+            min={1}
+            max={max}
+            aria-label="Questions per session"
+            value={text}
+            onChange={e => {
+              setText(e.target.value);
+              const n = parseInt(e.target.value, 10);
+              if (n >= 1) set(n);
+            }}
+            onBlur={() => setText(String(value))}
+            onFocus={e => e.target.select()}
+            className="h-9 w-14 bg-transparent text-center text-base font-semibold tabular-nums focus:outline-none [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+          />
+          <IconButton label="More questions" onClick={() => set(value + 1)} disabled={value >= max}>
+            <Plus className="size-4" />
+          </IconButton>
+        </div>
+        {PRESETS.filter(n => n < max).map(n => (
+          <Chip key={n} active={value === n} onClick={() => set(n)}>
+            {n}
+          </Chip>
+        ))}
+        <Chip active={value === max} onClick={() => set(max)}>
+          All
+        </Chip>
+      </div>
+    </Card>
   );
 }
 
