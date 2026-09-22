@@ -1,4 +1,5 @@
-import { useEffect, useRef, type ButtonHTMLAttributes, type ReactNode } from 'react';
+import { Minus, Plus } from 'lucide-react';
+import { useEffect, useRef, useState, type ButtonHTMLAttributes, type ReactNode } from 'react';
 
 export function cx(...classes: (string | false | null | undefined)[]): string {
   return classes.filter(Boolean).join(' ');
@@ -133,6 +134,59 @@ export function NumberInput({
         className,
       )}
     />
+  );
+}
+
+/**
+ * A number field with − / + buttons. It keeps its own text while typing, so "1"
+ * on the way to "15" doesn't jump around; values are clamped to [min, max].
+ */
+export function Stepper({
+  value,
+  onChange,
+  label,
+  min = 1,
+  max,
+  className,
+}: {
+  value: number;
+  onChange: (n: number) => void;
+  label: string;
+  min?: number;
+  max: number;
+  className?: string;
+}) {
+  const [text, setText] = useState(String(value));
+  useEffect(() => {
+    setText(String(value));
+  }, [value]);
+  const set = (n: number) => onChange(Math.min(Math.max(min, n), max));
+
+  return (
+    <div className={cx('inline-flex items-center rounded-xl border border-line bg-surface-2', className)}>
+      <IconButton label={`Decrease ${label}`} onClick={() => set(value - 1)} disabled={value <= min}>
+        <Minus className="size-4" />
+      </IconButton>
+      <input
+        type="number"
+        inputMode="numeric"
+        min={min}
+        max={max}
+        aria-label={label}
+        value={text}
+        onChange={e => {
+          setText(e.target.value);
+          const n = parseInt(e.target.value, 10);
+          if (n >= min) set(n);
+        }}
+        onBlur={() => setText(String(value))}
+        onFocus={e => e.target.select()}
+        className="h-9 w-16 bg-transparent text-center text-base font-semibold tabular-nums focus:outline-none [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+      />
+      <IconButton label={`Increase ${label}`} onClick={() => set(value + 1)} disabled={value >= max}>
+        <Plus className="size-4" />
+      </IconButton>
+    </div>
   );
 }
 

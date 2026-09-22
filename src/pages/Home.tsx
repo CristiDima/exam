@@ -3,17 +3,15 @@ import {
   Brain,
   ChevronDown,
   Library,
-  Minus,
   Play,
-  Plus,
   RotateCcw,
   Shuffle,
   Timer,
   type LucideIcon,
 } from 'lucide-react';
-import { useEffect, useMemo, useState, type ReactNode } from 'react';
+import { useMemo, useState, type ReactNode } from 'react';
 import { Link, useNavigate } from 'react-router';
-import { Badge, Button, Card, Chip, IconButton, LegendItem, NumberInput, SegmentBar, buttonClass, cx } from '../components/ui';
+import { Badge, Button, Card, Chip, LegendItem, NumberInput, SegmentBar, Stepper, buttonClass, cx } from '../components/ui';
 import { useToast } from '../components/toast';
 import { useStarter } from '../components/useStarter';
 import { formatTime, plural } from '../lib/format';
@@ -40,17 +38,24 @@ export default function Home() {
   const [to, setTo] = useState<number | null>(null);
   const [randomize, setRandomize] = useState(true);
   const [showOptions, setShowOptions] = useState(false);
-  const [examMinutes, setExamMinutes] = useState<number | null>(null);
 
   const summaries = useMemo(() => new Map(banks.map(b => [b.id, summarize(b.questions, progress)])), [banks, progress]);
   const mistakes = useMemo(() => (bank ? mistakesOf(bank.questions, progress) : []), [bank, progress]);
   const bookmarked = useMemo(() => (bank ? bookmarkedOf(bank.questions, progress) : []), [bank, progress]);
+  // Every question from every set, once (a few appear in two sets).
+  const allQuestions = useMemo(() => {
+    const seen = new Set<string>();
+    return banks.flatMap(b => b.questions).filter(q => !seen.has(q.hash) && !!seen.add(q.hash));
+  }, [banks]);
 
   if (!bank) return <p className="text-muted">No question sets found.</p>;
   const title = bank.title;
   // The saved size is shared by all sets; a smaller set simply uses all its questions.
   const count = Math.min(settings.sessionSize, bank.questions.length);
-  const minutes = examMinutes ?? count;
+
+  const examPool = settings.examScope === 'all' ? allQuestions : bank.questions;
+  const examCount = Math.min(settings.examSize, examPool.length);
+  const examMinutes = settings.examMinutes ?? examCount;
 
   const startClassic = () => {
     try {
@@ -150,21 +155,60 @@ export default function Home() {
                 onClick={() =>
                   start({
                     mode: 'exam',
-                    title,
-                    questions: shuffle(bank.questions).slice(0, count),
-                    timeLimit: Math.max(1, minutes) * 60,
+                    title: settings.examScope === 'all' ? 'All sets' : title,
+                    questions: shuffle(examPool).slice(0, examCount),
+                    timeLimit: examMinutes * 60,
                   })
                 }
               >
-                <Play className="size-4" />Start {count}-question exam
+                <Play className="size-4" />Start {examCount}-question exam
               </Button>
             }
           >
-            <label className="flex items-center gap-2 text-sm text-muted">
-              Time limit
-              <NumberInput label="Time limit in minutes" value={examMinutes} placeholder={String(count)} onChange={setExamMinutes} max={600} />
-              minutes
-            </label>
+            <div className="space-y-3 text-sm">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <span className="text-muted">Questions from</span>
+                <div className="flex flex-wrap gap-1.5">
+                  <Chip active={settings.examScope === 'all'} onClick={() => updateSettings({ examScope: 'all' })}>
+                    All sets
+                  </Chip>
+                  <Chip active={settings.examScope === 'set'} onClick={() => updateSettings({ examScope: 'set' })}>
+                    {title}
+                  </Chip>
+                </div>
+              </div>
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <span className="text-muted">Questions</span>
+                <Stepper
+                  label="exam questions"
+                  value={examCount}
+                  max={examPool.length}
+                  onChange={n => updateSettings({ examSize: n })}
+                />
+              </div>
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <span className="text-muted">Time limit (minutes)</span>
+                <Stepper
+                  label="exam time limit in minutes"
+                  value={examMinutes}
+                  max={2000}
+                  onChange={m => updateSettings({ examMinutes: m })}
+                />
+              </div>
+              <p className="text-xs text-muted">
+                {perQuestion(examMinutes, examCount)} per question
+                {settings.examMinutes === null ? ' (follows the number of questions).' : '. '}
+                {settings.examMinutes !== null && (
+                  <button
+                    type="button"
+                    onClick={() => updateSettings({ examMinutes: null })}
+                    className="font-medium text-fg underline underline-offset-2 cursor-pointer"
+                  >
+                    Reset to 1 min per question
+                  </button>
+                )}
+              </p>
+            </div>
           </ModeCard>
 
           <ModeCard
@@ -220,46 +264,17 @@ export default function Home() {
   );
 }
 
-/** How many questions a session has: − / + buttons, a free number field and quick presets. */
+/** How many questions a practice session has: a stepper plus quick presets. */
 function SessionSizePicker({ value, max, onChange }: { value: number; max: number; onChange: (n: number) => void }) {
-  // The field keeps its own text while typing, so "1" on the way to "15" doesn't jump around.
-  const [text, setText] = useState(String(value));
-  useEffect(() => {
-    setText(String(value));
-  }, [value]);
   const set = (n: number) => onChange(Math.min(Math.max(1, n), max));
-
   return (
     <Card className="mb-3 flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
       <div>
         <p className="font-semibold">Questions per session</p>
-        <p className="text-sm text-muted">Used by every mode below. You can pick 1 to {max.toLocaleString('en-US')}.</p>
+        <p className="text-sm text-muted">For Classic, Learning, My mistakes and Bookmarks. The exam has its own setting below.</p>
       </div>
       <div className="flex flex-wrap items-center gap-2">
-        <div className="inline-flex items-center rounded-xl border border-line bg-surface-2">
-          <IconButton label="Fewer questions" onClick={() => set(value - 1)} disabled={value <= 1}>
-            <Minus className="size-4" />
-          </IconButton>
-          <input
-            type="number"
-            inputMode="numeric"
-            min={1}
-            max={max}
-            aria-label="Questions per session"
-            value={text}
-            onChange={e => {
-              setText(e.target.value);
-              const n = parseInt(e.target.value, 10);
-              if (n >= 1) set(n);
-            }}
-            onBlur={() => setText(String(value))}
-            onFocus={e => e.target.select()}
-            className="h-9 w-14 bg-transparent text-center text-base font-semibold tabular-nums focus:outline-none [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
-          />
-          <IconButton label="More questions" onClick={() => set(value + 1)} disabled={value >= max}>
-            <Plus className="size-4" />
-          </IconButton>
-        </div>
+        <Stepper label="questions per session" value={value} max={max} onChange={set} />
         {PRESETS.filter(n => n < max).map(n => (
           <Chip key={n} active={value === n} onClick={() => set(n)}>
             {n}
@@ -271,6 +286,14 @@ function SessionSizePicker({ value, max, onChange }: { value: number; max: numbe
       </div>
     </Card>
   );
+}
+
+function perQuestion(minutes: number, questions: number): string {
+  const seconds = (minutes * 60) / Math.max(1, questions);
+  if (seconds < 60) return `${Math.round(seconds)} s`;
+  const m = Math.floor(seconds / 60);
+  const rest = Math.round(seconds % 60);
+  return rest ? `${m} min ${rest} s` : `${m} min`;
 }
 
 export function ProgressBar({ known, wrong, fresh, className }: { known: number; wrong: number; fresh: number; className?: string }) {
