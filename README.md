@@ -1,15 +1,21 @@
 # EPSO Practice
 
-A static quiz app for EPSO exam practice. There's no backend and no database:
+A quiz app for EPSO exam practice, built with React, Vite, TypeScript and Tailwind. It has no backend and no database:
 
 - **Questions** are JSON files in [`public/data/`](public/data/).
-- **Progress** (run history and learning-mode stats) is saved in the browser's `localStorage`.
-  Use **Export progress / Import progress** on the Results Dashboard to back it up or move it to another device.
+- **Progress** (quiz history, per-question stats, bookmarks, the quiz in progress) is saved in the browser's `localStorage`.
+  Use **Settings → Export / Import progress** to back it up or move it to another device.
 
-## Modes
+## Features
 
-- **Random**: N random questions, optionally limited to a range (e.g. questions 100–200), in random or file order.
-- **Learning**: questions you've never answered come first, then the ones you miss most often.
+- **Modes:** Classic (random questions, optional range and file order), Learning (unseen first, then the ones you miss most),
+  Exam simulation (time limit, no answers until you submit), My mistakes, Bookmarks.
+- **Questions page:** every question with its answer and explanation. Accent-insensitive search with highlighting,
+  filters by set and status (new / to review / known / bookmarked), flashcard mode, and "Practice these" to quiz yourself on the results.
+- **Quiz:** one-tap answers (or the classic select-then-check flow, in Settings), keys `1`–`4` / `A`–`D` and `Enter`,
+  resume after a refresh, bookmarks, and review of wrong answers at the end.
+- **Statistics:** progress per set, score trend, most missed questions, full history.
+- **Light and dark themes**, works on phones, installable, and works offline after the first visit.
 
 ## Adding or changing question sets
 
@@ -19,7 +25,7 @@ A static quiz app for EPSO exam practice. There's no backend and no database:
    { "id": "my-set", "title": "My Set", "file": "my-set.json" }
    ```
 
-Malformed questions are skipped (see the browser console). Stats are keyed by a hash of the
+Malformed questions are skipped (see the browser console). Stats are keyed by a SHA-256 hash of the
 question text, so reordering or adding questions keeps your progress.
 
 ### Question format
@@ -35,22 +41,20 @@ question text, so reordering or adding questions keeps your progress.
 ]
 ```
 
-## Run locally
-
-Any static file server works, for example:
+## Development
 
 ```bash
-python3 -m http.server 8000 --directory public
+npm install
+npm run dev      # http://localhost:5173
+npm test         # unit tests (question files, selection, progress, search)
+npm run build    # type-check and build into dist/
 ```
-
-Then open http://localhost:8000. (Opening `index.html` directly from disk won't work, because browsers block `fetch` on `file://`.)
 
 ## Deploy on Vercel
 
-Import this repository at [vercel.com/new](https://vercel.com/new) and click **Deploy**. No settings are needed:
-[`vercel.json`](vercel.json) tells Vercel there's no build step and to serve the `public/` folder.
-
-Or with the CLI: `npm i -g vercel`, then `vercel` (preview) or `vercel --prod`.
+Import the repository at [vercel.com/new](https://vercel.com/new) and deploy; every push to `main` redeploys.
+[`vercel.json`](vercel.json) sets the Vite build, the `dist` output, and the fallback that serves `index.html`
+for app routes such as `/questions`.
 
 ## Moving history from the old Docker app
 
@@ -58,4 +62,4 @@ Or with the CLI: `npm i -g vercel`, then `vercel` (preview) or `vercel --prod`.
 python3 scripts/export_flask_history.py "../Practice test app/db/quiz.db" > epso-progress-from-docker.json
 ```
 
-Then open the app → **Results Dashboard** → **Import progress** and pick that file.
+Then open the app → **Settings** → **Import progress** and pick that file.
